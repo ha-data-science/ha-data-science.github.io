@@ -4,7 +4,7 @@ author: "Jack Nicholson"
 date: 2020-06-30
 ---
 
-![I just passed my first year report](img/jack.png)  
+![I just passed my first year report](img/jack2.png)  
 
 &nbsp;
 
