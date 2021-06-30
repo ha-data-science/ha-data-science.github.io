@@ -1,0 +1,6 @@
+a,b,c
+1,north,m
+2,north,f
+2,south,f
+4,south,m
+5,south,m
