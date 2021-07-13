@@ -21,8 +21,7 @@ title: "HAP-E Group Harper Adams Python Enthusiasts Group"
 
 **2021-07-09** HAP-E Group Launch and Google Colab ::
 [ppt](hap-e-files/2021-07-09/2021-07-09 HAP-E launch.pptx) :: 
-https://colab.research.google.com/github/ha-data-science/ha-data-science.github.io/pages/hap-e-files/2021-07-09/HAP-E-colab-tutorial.ipynb
-
-
+https://colab.research.google.com/github/ha-data-science/ha-data-science.github.io/blob/main/pages/hap-e-files/2021-07-09/HAP-E-colab-tutorial.ipynb
+ 
 &nbsp;
 
