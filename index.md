@@ -1,6 +1,6 @@
 ---
 title: "Harper Statistics and Data Science Pages"
-date: 2021-07-11
+## date: 2021-07-11 
 ---
 
 <center>
