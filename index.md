@@ -28,7 +28,7 @@ This page is devoted to our R programming, Python, Statistics and Data Science g
         }
     </style>
 </head>
-<center>
+<center> 
 <table>
     <tr>
         <th><img src="img/harug-quarantine.png" alt="HARUG" width="75"></th>
