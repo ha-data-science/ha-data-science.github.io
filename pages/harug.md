@@ -20,7 +20,10 @@ title: "HARUG! Harper Adams R Users Group"
 
 &nbsp;
 
-**2021-07-07** R Bootcamp Launch and software setup ::
+**2021-07-14** R Bootcamp 1.1 Syntax basics (Ed Harris) ::
+[1.1 Syntax basics](https://dsgarage.netlify.app/bootcamp/1.1-m1-r-syntax-basics/)
+
+**2021-07-07** R Bootcamp Launch and software setup (Ed Harris) ::
 [ppt](harug-files/2021-07-07-Bootcamp-launch.pptx) :: 
 [R Bootcamp overview](https://dsgarage.netlify.app/bootcamp/0.0-bootcamp-overview/) ::
 [R Bootcamp intro](https://dsgarage.netlify.app/bootcamp/0.1-bootcamp-intro/) 
