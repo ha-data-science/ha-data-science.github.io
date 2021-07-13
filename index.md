@@ -12,9 +12,9 @@ date: 2021-07-11
 
 &nbsp;
 
-<center>
+
 This page is devoted to our R programming, Python, Statistics and Data Science groups at Harper Adams University.  Have a look at our resources and schedule of meetings below.
-</center>
+
 
 &nbsp;
 

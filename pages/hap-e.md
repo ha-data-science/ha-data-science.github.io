@@ -25,7 +25,7 @@ title: "HAP-E Group Harper Adams Python Enthusiasts Group"
 [ppt](hap-e-files/2021-07-09/2021-07-09 HAP-E launch.pptx) :: Colab tutorial =  <a href="https://colab.research.google.com/github/ha-data-science/ha-data-science.github.io/blob/main/pages/hap-e-files/2021-07-09/HAP-E-colab-tutorial.ipynb" target="_blank">
     <img class="colab-badge" src="../img/colab-open.svg" alt="Colab Notebook"/>
   </a>
-
+ 
 
 
  
