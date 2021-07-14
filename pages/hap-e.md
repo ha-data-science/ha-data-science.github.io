@@ -19,9 +19,9 @@ title: "HAP-E Group Harper Adams Python Enthusiasts Group"
 
 &nbsp;
 
-**2021-07-16** Handling files in Python (Joe Mhango) ::
+**2021-07-16** (#2) Handling files in Python (Joe Mhango) ::
 
-**2021-07-09** HAP-E Group Launch and Google Colab (Ed Harris) ::
+**2021-07-09** (#1) HAP-E Group Launch and Google Colab (Ed Harris) ::
 [ppt](hap-e-files/2021-07-09/2021-07-09 HAP-E launch.pptx) :: Colab tutorial =  <a href="https://colab.research.google.com/github/ha-data-science/ha-data-science.github.io/blob/main/pages/hap-e-files/2021-07-09/HAP-E-colab-tutorial.ipynb" target="_blank">
     <img class="colab-badge" src="../img/colab-open.svg" alt="Colab Notebook"/>
   </a>
