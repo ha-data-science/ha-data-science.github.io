@@ -30,7 +30,7 @@ title: "HARUG! Harper Adams R Users Group"
 [R Bootcamp overview](https://dsgarage.netlify.app/bootcamp/0.0-bootcamp-overview/) ::
 [R Bootcamp intro](https://dsgarage.netlify.app/bootcamp/0.1-bootcamp-intro/) 
 
-**2019-2021 previous meetings** [HARUG! on Operorgenetic](http://operorgenetic.com/wp/) (files from previous meetings may be migrated here at some point)
+**2019-2021** Previous meetings (not all are indexed) [HARUG! on Operorgenetic](http://operorgenetic.com/wp/) (files from previous meetings may be migrated here at some point)
 
 &nbsp;
 

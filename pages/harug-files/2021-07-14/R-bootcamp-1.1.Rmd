@@ -69,3 +69,16 @@ knitr::include_graphics("img/fun-meme.jpg")
 knitr::include_graphics("img/copy-paste.jpg")
 ```
 
+## Activity for everyone
+
+&nbsp;
+
+Each Bootcamp page has **Exercises**
+
+One question is always to **write your own new question**
+
+Time at the end for people to **share questions they have written**
+
+I try to **categorize them** *Easy*, *Medium*, *Hard*
+
+Also, **relevant to page content**!
