@@ -15,7 +15,7 @@ title: "HARUG! Harper Adams R Users Group"
 &nbsp;
 
 **Weekly live meetings Wednesdays at 4pm (online for now)**
-
+  
 [**Join us on Slack**](https://join.slack.com/t/harper-adams-rug/shared_invite/zt-azcm9z6s-WsY9JXvAs8DW1DLQuU3USg) (kindly register with your real name, e.g. "Ronald Fisher")
 
 &nbsp;
