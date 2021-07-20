@@ -68,9 +68,9 @@ help(topic = ggplot)
 my_dat <- data.frame(y = c(2,3,4,5,4,3),
                      x = c('a','a','a','b','b','b'))
 
-  ggplot(data = my_dat, 
-       aes(x = x, y = y)) + 
-  geom_boxplot()
+ggplot(data = my_dat, 
+     aes(x = x, y = y)) + 
+geom_boxplot()
 
 
 ## 1.2.5 Practice exercises ####
