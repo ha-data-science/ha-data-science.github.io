@@ -32,4 +32,3 @@ title: "HAP-E Group Harper Adams Python Enthusiasts Group"
 
  
 &nbsp;
-

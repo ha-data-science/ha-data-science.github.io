@@ -20,6 +20,14 @@ title: "HARUG! Harper Adams R Users Group"
 
 &nbsp;
 
+**2021-07-21** (#62) R Bootcamp 1.2 Functions and packages (Ed Harris) :: 
+Slides [Markdown](harug-files/2021-07-21/R-bootcamp-1.2-slides.Rmd) :: 
+Slides [HTML](harug-files/2021-07-21/R-bootcamp-1.2-slides.html) :: 
+Bootcamp [Functions and packages](https://dsgarage.netlify.app/bootcamp/1.2-m1-function-and-packages/) :: 
+[Script template](harug-files/2021-07-21/script-template.R) ::
+[Script bootcamp 1.2](harug-files/2021-07-21/script-bootcamp-1.2.R) ::
+Optional reading [Helping yourself in R](https://www.r-project.org/help.html)
+
 **2021-07-14** (#61) R Bootcamp 1.1 Syntax basics (Ed Harris) :: 
 Slides [Markdown](harug-files/2021-07-14/R-bootcamp-1.1.Rmd) :: 
 Slides [HTML](harug-files/2021-07-14/R-bootcamp-1.1.html) :: 

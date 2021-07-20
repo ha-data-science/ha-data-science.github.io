@@ -1,0 +1,92 @@
+---
+title: "R Bootcamp 1.2 <br>Functions & Packages"
+subtitle: "HARUG!"
+author: "Ed Harris"
+date: "2021-07-21"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## R as a garage
+
+&nbsp;
+
+```{r, echo=FALSE, out.width="80%", fig.cap=""}
+knitr::include_graphics("img/toolbox.jpg")
+```
+
+
+## What you will learn
+
+&nbsp;
+
+- Function tour
+- Using functions and getting help
+- R "Packages"
+- Finding, downloading and using packages
+
+
+## Function tour
+
+&nbsp;
+
+**Functions are tools** that do work
+
+The structure of an R function:
+
+&nbsp;
+
+function_name(<br>
+argument_1 = value_1,<br>
+argument_2 = value_2,<br>
+...<br>
+)
+
+##  Using functions and getting help
+
+&nbsp;
+
+help(topic = <e.g. a function name>)
+
+`help(topic = sd)`
+
+```{r, echo=F, out.width="60%", fig.cap=""}
+knitr::include_graphics("img/help.png")
+```
+
+
+##  R "Packages"
+
+&nbsp;
+
+> Someone has probably created a tool to solve your problem.  You just have to find it.
+
+```{r, echo=FALSE, out.width="30%", fig.cap=""}
+knitr::include_graphics("img/toolbox.jfif")
+```
+
+Packages contain functions that are useful
+
+
+## Finding, downloading and using packages
+
+Finding packages happens a variety of ways in practice. A package may be recommended to you, you might be told to use a particular package for a task or assignment, or you may discover it on the web.
+
+&nbsp;
+
+`install.packages("package_name")`
+`library("package_name")`
+
+```{r, echo=FALSE, out.width="60%", fig.cap=""}
+# knitr::include_graphics("img/copy-paste.jpg")
+```
+
+## Live coding demo
+
+```{r, echo=FALSE, out.width="60%", fig.cap=""}
+knitr::include_graphics("img/cat-laptop.jfif")
+```
+
