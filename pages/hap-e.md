@@ -19,6 +19,10 @@ title: "HAP-E Group Harper Adams Python Enthusiasts Group"
 
 &nbsp;
 
+**2021-07-30** (#4) Topic TBA (George Wager)
+
+**2021-07-23** (#3) Graphing in Python (Joe Roberts)
+
 **2021-07-16** (#2) Handling files in Python (Joe Mhango) :: Colab tutorial =  <a href="https://colab.research.google.com/github/ha-data-science/ha-data-science.github.io/blob/main/pages/hap-e-files/2021-07-16/basicPandasCode.ipynb" target="_blank">
     <img class="colab-badge" src="../img/colab-open.svg" alt="Colab Notebook"/>
   </a>
