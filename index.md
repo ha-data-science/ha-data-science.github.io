@@ -16,6 +16,9 @@ title: "Harper Statistics and Data Science Pages"
 **This page is devoted to our R programming, Python, Statistics and Data Science groups at Harper Adams University.**  
 
 **Have a look at our resources and schedule of meetings below.**
+
+**https://ha-data-science.github.io/**
+
 </center>
 
 &nbsp;
