@@ -20,6 +20,12 @@ title: "HARUG! Harper Adams R Users Group"
 
 &nbsp;
 
+___
+
+<a href="https://youtu.be/yD_z5kiGk38" target="_blank">
+<img src="harug-files/2021-07-21/img/Bootcamp-1.2.png" width="100" alt="Meeting thumbnail"/>
+</a> 
+
 **2021-07-21** (#62) R Bootcamp 1.2 Functions and packages (Ed Harris) :: 
 Slides [Markdown](harug-files/2021-07-21/R-bootcamp-1.2-slides.Rmd) :: 
 Slides [HTML](harug-files/2021-07-21/R-bootcamp-1.2-slides.html) :: 
@@ -28,6 +34,12 @@ Bootcamp [1.2 Functions and packages](https://dsgarage.netlify.app/bootcamp/1.2-
 [Script bootcamp 1.2](harug-files/2021-07-21/script-bootcamp-1.2.R) ::
 Optional reading [Helping yourself in R](https://www.r-project.org/help.html)
 
+&nbsp;
+
+<a href="https://youtu.be/lZxnYuArVrE" target="_blank">
+<img src="harug-files/2021-07-14/img/Bootcamp-1.1.png" width="100" alt="Meeting thumbnail"/>
+</a> 
+
 **2021-07-14** (#61) R Bootcamp 1.1 Syntax basics (Ed Harris) :: 
 Slides [Markdown](harug-files/2021-07-14/R-bootcamp-1.1.Rmd) :: 
 Slides [HTML](harug-files/2021-07-14/R-bootcamp-1.1.html) :: 
@@ -35,10 +47,30 @@ Bootcamp [1.1 Syntax basics](https://dsgarage.netlify.app/bootcamp/1.1-m1-r-synt
 [Script bootcamp 1.1](harug-files/2021-07-14/script-bootcamp-1.1.R) ::
 Optional reading [Tidyverse skeptic](https://github.com/matloff/TidyverseSkeptic)
 
+&nbsp;
+
+<a href="https://youtu.be/wmyDf14CzXQ" target="_blank">
+<img src="harug-files/2021-07-07/img/Bootcamp-launch.png" width="100" alt="Meeting thumbnail"/>
+</a> 
+
 **2021-07-07** (#60) R Bootcamp Launch and software setup (Ed Harris) ::
 Bootcamp launch slides:: [ppt](harug-files/2021-07-07/R-bootcamp-launch-slides.Rmd) :: [HTML](harug-files/2021-07-07/R-bootcamp-launch-slides.html) :: Bootcamp Rstudio slides:: [ppt](harug-files/2021-07-07/R-bootcamp-RStudio.Rmd) :: [HTML](harug-files/2021-07-07/R-bootcamp-RStudio.html) ::
 [R Bootcamp 0.0 Overview](https://dsgarage.netlify.app/bootcamp/0.0-bootcamp-overview/) ::
 [R Bootcamp 0.1 Introduction](https://dsgarage.netlify.app/bootcamp/0.1-bootcamp-intro/) :: [Script template](harug-files/files/script-template.R)
+
+&nbsp;
+
+<a href="https://youtu.be/3GvG2nij7xs" target="_blank">
+<img src="harug-files/2021-06-30/img/harug-github-website.png" width="100" alt="Meeting thumbnail"/>
+</a> 
+
+**2021-06-30** (#59) R markdown Github webpage (Ed Harris) :: 
+Slides [MS ppt](harug-files/2021-06-30/2021-06-30-github-webpage.pptx) :: 
+Template files [zip](harug-files/2021-06-30/webpage files.zip) 
+
+___
+
+&nbsp;
 
 **2019-2021** Previous meetings (not all are indexed) [HARUG! on Operorgenetic](http://operorgenetic.com/wp/) (files from previous meetings may be migrated here at some point)
 
