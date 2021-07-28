@@ -22,6 +22,19 @@ title: "HARUG! Harper Adams R Users Group"
 
 ___
 
+<a href="">
+<img src="harug-files/2021-07-28/img/Bootcamp-1.3.png" width="100" alt="Meeting thumbnail"/>
+</a> 
+
+**2021-07-28** (#63) R Bootcamp 1.3 Data objects in R (Ed Harris) :: 
+Slides [Markdown](harug-files/2021-07-28/R-bootcamp-1.3-slides.Rmd) :: 
+Slides [HTML](harug-files/2021-07-28/R-bootcamp-1.3-slides.html) :: 
+Bootcamp [1.3 Data objects in R](https://dsgarage.netlify.app/bootcamp/1.3-m1-data-objects/) :: 
+[Script template](harug-files/files/script-template.R) ::
+[Script bootcamp 1.2](harug-files/2021-07-28/script-bootcamp-1.3.R) 
+
+&nbsp;
+
 <a href="https://youtu.be/yD_z5kiGk38" target="_blank">
 <img src="harug-files/2021-07-21/img/Bootcamp-1.2.png" width="100" alt="Meeting thumbnail"/>
 </a> 
