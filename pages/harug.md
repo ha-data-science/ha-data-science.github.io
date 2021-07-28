@@ -1,6 +1,6 @@
 ---
 title: "HARUG! Harper Adams R Users Group"
-# date: Last edited 2021-07-13
+# date: Last edited 2021-07-28
 ---
 
 <center>
@@ -21,7 +21,7 @@ title: "HARUG! Harper Adams R Users Group"
 &nbsp;
 
 ___
- 
+  
 <a href="">
 <img src="harug-files/2021-07-28/img/Bootcamp-1.3.png" width="100" alt="Meeting thumbnail"/>
 </a> 
