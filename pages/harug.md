@@ -31,7 +31,7 @@ Slides [Markdown](harug-files/2021-07-28/R-bootcamp-1.3-slides.Rmd) ::
 Slides [HTML](harug-files/2021-07-28/R-bootcamp-1.3-slides.html) :: 
 Bootcamp [1.3 Data objects in R](https://dsgarage.netlify.app/bootcamp/1.3-m1-data-objects/) :: 
 [Script template](harug-files/files/script-template.R) ::
-[Script bootcamp 1.2](harug-files/2021-07-28/script-bootcamp-1.3.R) 
+[Script bootcamp 1.3](harug-files/2021-07-28/script-bootcamp-1.3.R) 
 
 &nbsp;
 
