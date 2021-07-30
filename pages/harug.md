@@ -26,7 +26,7 @@ ___
 <img src="harug-files/2021-07-28/img/Bootcamp-1.3.png" width="100" alt="Meeting thumbnail"/>
 </a> 
 
-**2021-07-28** (#63) R Bootcamp 1.3 Data objects in R (Ed Harris) :: 
+**2021-07-28** (meeting #63) R Bootcamp 1.3 Data objects in R (Ed Harris) :: 
 Slides [Markdown](harug-files/2021-07-28/R-bootcamp-1.3-slides.Rmd) :: 
 Slides [HTML](harug-files/2021-07-28/R-bootcamp-1.3-slides.html) :: 
 Bootcamp [1.3 Data objects in R](https://dsgarage.netlify.app/bootcamp/1.3-m1-data-objects/) :: 
@@ -39,7 +39,7 @@ Bootcamp [1.3 Data objects in R](https://dsgarage.netlify.app/bootcamp/1.3-m1-da
 <img src="harug-files/2021-07-21/img/Bootcamp-1.2.png" width="100" alt="Meeting thumbnail"/>
 </a> 
 
-**2021-07-21** (#62) R Bootcamp 1.2 Functions and packages (Ed Harris) :: 
+**2021-07-21** (meeting #62) R Bootcamp 1.2 Functions and packages (Ed Harris) :: 
 Slides [Markdown](harug-files/2021-07-21/R-bootcamp-1.2-slides.Rmd) :: 
 Slides [HTML](harug-files/2021-07-21/R-bootcamp-1.2-slides.html) :: 
 Bootcamp [1.2 Functions and packages](https://dsgarage.netlify.app/bootcamp/1.2-m1-function-and-packages/) :: 
@@ -53,7 +53,7 @@ Optional reading [Helping yourself in R](https://www.r-project.org/help.html)
 <img src="harug-files/2021-07-14/img/Bootcamp-1.1.png" width="100" alt="Meeting thumbnail"/>
 </a> 
 
-**2021-07-14** (#61) R Bootcamp 1.1 Syntax basics (Ed Harris) :: 
+**2021-07-14** (meeting #61) R Bootcamp 1.1 Syntax basics (Ed Harris) :: 
 Slides [Markdown](harug-files/2021-07-14/R-bootcamp-1.1.Rmd) :: 
 Slides [HTML](harug-files/2021-07-14/R-bootcamp-1.1.html) :: 
 Bootcamp [1.1 Syntax basics](https://dsgarage.netlify.app/bootcamp/1.1-m1-r-syntax-basics/) :: [Script template](harug-files/files/script-template.R) ::
@@ -66,7 +66,7 @@ Optional reading [Tidyverse skeptic](https://github.com/matloff/TidyverseSkeptic
 <img src="harug-files/2021-07-07/img/Bootcamp-launch.png" width="100" alt="Meeting thumbnail"/>
 </a> 
 
-**2021-07-07** (#60) R Bootcamp Launch and software setup (Ed Harris) ::
+**2021-07-07** (meeting #60) R Bootcamp Launch and software setup (Ed Harris) ::
 Bootcamp launch slides:: [ppt](harug-files/2021-07-07/R-bootcamp-launch-slides.Rmd) :: [HTML](harug-files/2021-07-07/R-bootcamp-launch-slides.html) :: Bootcamp Rstudio slides:: [ppt](harug-files/2021-07-07/R-bootcamp-RStudio.Rmd) :: [HTML](harug-files/2021-07-07/R-bootcamp-RStudio.html) ::
 [R Bootcamp 0.0 Overview](https://dsgarage.netlify.app/bootcamp/0.0-bootcamp-overview/) ::
 [R Bootcamp 0.1 Introduction](https://dsgarage.netlify.app/bootcamp/0.1-bootcamp-intro/) :: [Script template](harug-files/files/script-template.R)
@@ -77,7 +77,7 @@ Bootcamp launch slides:: [ppt](harug-files/2021-07-07/R-bootcamp-launch-slides.R
 <img src="harug-files/2021-06-30/img/harug-github-website.png" width="100" alt="Meeting thumbnail"/>
 </a> 
 
-**2021-06-30** (#59) R markdown Github webpage (Ed Harris) :: 
+**2021-06-30** (meeting #59) R markdown Github webpage (Ed Harris) :: 
 Slides [MS ppt](harug-files/2021-06-30/2021-06-30-github-webpage.pptx) :: 
 Template files [zip](harug-files/2021-06-30/webpage files.zip) 
 
