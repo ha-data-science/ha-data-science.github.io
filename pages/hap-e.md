@@ -21,7 +21,17 @@ title: "HAP-E Group Harper Adams Python Enthusiasts Group"
 
 ___
 
-**2021-07-30** (#4) Topic TBA (George Wager)
+**2021-07-30** (#4) Stats framework in Python (Ed Harris)
+
+&nbsp;
+
+<a href="" target="_blank">
+<img src="hap-e-files/2021-07-30/img/hap-e-data-wrangling.png" width="100" alt="Meeting thumbnail"/>
+</a> 
+
+**2021-07-30** (#4) Topic TBA (George Wager) :: Colab tutorial =  <a href="https://colab.research.google.com/github/ha-data-science/ha-data-science.github.io/blob/main/pages/hap-e-files/2021-07-30/Data-Tidying.ipynb" target="_blank">
+    <img class="colab-badge" src="../img/colab-open.svg" alt="Colab Notebook"/>
+  </a> :: [Tidy data R script](hap-e-files/2021-07-30/studentperformancecomparisonscript.R) :: [Tidy data example data csv](hap-e-files/2021-07-30/studentperformance.csv)
 
 &nbsp;
 
