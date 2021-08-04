@@ -1,0 +1,154 @@
+---
+title: "R Bootcamp 1.4 <br>Data frames in R"
+subtitle: "Data science garage https://dsgarage.netlify.app/"
+author: "Ed Harris"
+date: "last update: 2021-08-04"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## R Space
+
+&nbsp;
+
+https://dsgarage.netlify.app/bootcamp/1.4-m1-data-frames/
+
+```{r, echo=FALSE, out.width="30%", fig.cap=""}
+knitr::include_graphics("img/tidy.png")
+```
+
+
+## What you will learn
+
+&nbsp;
+
+- "Tidy Data" concept
+- Common data file types
+- Excel, data setup, and the Data Dictionary
+- Getting data into R
+- Manipulating variables
+- Practice exercises
+
+
+## "Tidy Data" concept
+
+&nbsp;
+
+
+```{r, echo=FALSE, out.width="80%", fig.cap=""}
+knitr::include_graphics("img/wickham-tidy.png")
+```
+
+## "Tidy Data" concept
+
+&nbsp;
+
+The data should be in a standard, accessible, reproducible, non-haphazard, format
+
+- One column per variable
+
+- One row per observational unit
+
+- Thought given to sympathetic data "codification"
+
+- explanation of variables
+
+- Variable naming conventions
+
+
+## Common data file types
+
+&nbsp;
+
+**Delimited text files**
+
+- .csv, .txt, tab-delimited, others
+
+- first row with variable names
+
+- problem with explanation of variables
+
+**Excel is okay**, but must be **Tidy**
+
+**Avoid proprietary formats** (like SPSS, Genstat, etc.)
+
+
+##  Excel, data setup, and the Data Dictionary
+
+```{r, echo=F, out.width="80%", fig.cap="Untidy data in Excel"}
+knitr::include_graphics("img/1.4-untidy.png")
+```
+
+
+##  Excel, data setup, and the Data Dictionary
+
+```{r, echo=F, out.width="80%", fig.cap="Tidy data in Excel"}
+knitr::include_graphics("img/1.4-tidy.png")
+```
+
+
+##  Excel, data setup, and the Data Dictionary
+
+```{r, echo=F, out.width="80%", fig.cap="Data dictionary"}
+knitr::include_graphics("img/1.4-tidy-dictionary.png")
+```
+
+
+##  Excel, data setup, and the Data Dictionary
+
+```{r, echo=F, out.width="50%", fig.cap="Tidy csv"}
+knitr::include_graphics("img/1.4-tidy.csv.png")
+```
+
+
+##  Getting data into R
+
+&nbsp;
+
+Step 1 Set your working directory with code, or RStudio menus
+
+```{r, echo=F, out.width="70%", fig.cap="Working directory menus"}
+knitr::include_graphics("img/1.4-working-directory.png")
+```
+
+##  Getting data into R
+
+&nbsp;
+
+Different data file types require different functions
+
+&nbsp;
+
+for .csv `read.csv()`
+
+for other delimited `read.table()`
+
+for Excel `library(openxlsx); read.xlsx()`
+
+many others exist
+
+
+## Manipulating variables
+
+&nbsp;
+
+- `names()` function
+
+- The use of the `$` operator for data frames
+
+- The use of the `str()` function for data frames
+
+- The use of the index operator `[ , ]`
+
+- The use of the `attach()` function
+
+
+## Live coding demo
+
+```{r, echo=FALSE, out.width="60%", fig.cap=""}
+knitr::include_graphics("img/cat-laptop.jfif")
+```
+
