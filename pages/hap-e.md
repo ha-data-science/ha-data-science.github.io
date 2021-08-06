@@ -5,11 +5,13 @@ title: "HAP-E Group Harper Adams Python Enthusiasts Group"
 
 <center>
    <img src="../img/HAP-E-logo.png" alt="HARUG" width="125"/>
-</center>
 
 &nbsp;
 
 **HAP-E Group is a Python and data science group based at Harper Adams University.** We are a friendly group and welcome members from beginners to experts.  Our topics cover Python programming and the practice of statistics, and data science, computer vision and related topics, spanning from skill building to live coding and problem solving, with occasional advanced topics or readings.
+
+[HA Data Science main page](https://ha-data-science.github.io/)
+</center>
 
 &nbsp;
 

@@ -6,11 +6,14 @@ title: "HARUG! Harper Adams R Users Group"
 <center>
    <img src="../img/HARUG.png" alt="HARUG" width="125"/>
    <img src="../img/harug-quarantine.png" alt="HARUG quarantine" width="110"/>
-</center>
 
 &nbsp;
 
 **HARUG! is an R Users Group based at Harper Adams University.** We are a friendly group and welcome members from beginners to experts.  Our topics cover R programming and the practice of statistics, spanning skill building to live coding and problem solving, with occasional advanced topics or readings.
+
+[HA Data Science main page](https://ha-data-science.github.io/)
+
+</center>
 
 &nbsp;
 
