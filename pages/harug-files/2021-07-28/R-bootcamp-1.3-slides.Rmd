@@ -14,19 +14,22 @@ knitr::opts_chunk$set(echo = FALSE)
 
 &nbsp;
 
-https://dsgarage.netlify.app/bootcamp/1.3-m1-data-objects/
+<center>
 
-```{r, echo=FALSE, out.width="40%", fig.cap=""}
+> You are floating in R Space, alone but for your data
+
+```{r, echo=FALSE, out.width="60%", fig.cap=""}
 knitr::include_graphics("img/r-space.png")
 ```
 
+</center>
 
 ## What you will learn
 
 &nbsp;
 
 - Basic data types in R, str()
-- Data with factors
+- Categorical data
 - class() and converting variables
 - Vector and matrix fun
 
@@ -35,7 +38,7 @@ knitr::include_graphics("img/r-space.png")
 
 &nbsp;
 
-**Data objects** are **storage containers**
+**Data objects** are storage containers
 
 &nbsp;
 
@@ -51,21 +54,25 @@ z <- c("Bob", "Karen") # vector of character strings
 
 &nbsp;
 
+<center>
 
-```{r, echo=F, out.width="60%", fig.cap=""}
+```{r, echo=F, out.width="90%", fig.cap=""}
 knitr::include_graphics("img/first-data.png")
 ```
 
+</center>
 
 ##  The Global environment "R space"
 
 &nbsp;
 
+<center>
 
-```{r, echo=F, out.width="70%", fig.cap=""}
+```{r, echo=F, out.width="75%", fig.cap=""}
 knitr::include_graphics("img/1.3-global-env.png")
 ```
 
+</center>
 
 ##  Variable name conventions
 
@@ -102,7 +109,7 @@ knitr::include_graphics("img/1.3-global-env.png")
 
 Generally need to think about this when analysing data
 
-## class() and converting variables
+## `class()` and converting variables
 
 &nbsp;
 
@@ -110,10 +117,13 @@ Generally need to think about this when analysing data
 
 - Also, the Global Environment
 
+<center>
 
 ```{r, echo=FALSE, out.width="90%", fig.cap=""}
 knitr::include_graphics("img/1.3-class.png")
 ```
+
+</center>
 
 ## Vectors and matrices
 
@@ -131,9 +141,16 @@ knitr::include_graphics("img/1.3-class.png")
 
 - 3 dimensions to i, j, and k my_array[i, j, k]
 
-## Live coding demo
+## Live coding
+
+&nbsp;
+
+<center>
 
 ```{r, echo=FALSE, out.width="60%", fig.cap=""}
 knitr::include_graphics("img/cat-laptop.jfif")
 ```
+
+</center>
+
 

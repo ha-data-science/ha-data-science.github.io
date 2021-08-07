@@ -14,10 +14,15 @@ knitr::opts_chunk$set(echo = FALSE)
 
 &nbsp;
 
-```{r, echo=FALSE, out.width="100%", fig.cap=""}
-knitr::include_graphics("img/alfred.png")
+<center>
+
+R as a passive-aggressive butler
+
+```{r, echo=FALSE, out.width="40%", fig.cap=""}
+knitr::include_graphics("img/butler-alfred-sm.png")
 ```
 
+</center>
 
 ## What you will learn
 
@@ -33,11 +38,15 @@ knitr::include_graphics("img/alfred.png")
 
 &nbsp;
 
-> To get the most out of the Bootcamp, I strongly recommend that you work through the instructions here while using R and RStudio as you go along. 
+<center>
+
+> To get the most out of the Bootcamp, work through the instructions while using R and RStudio as you go along
 
 ```{r, echo=FALSE, out.width="40%", fig.cap=""}
 knitr::include_graphics("img/fun-meme.jpg")
 ```
+
+</center>
 
 ## First script
 
@@ -65,20 +74,23 @@ knitr::include_graphics("img/fun-meme.jpg")
 
 &nbsp;
 
+<center>
+
 ```{r, echo=FALSE, out.width="80%", fig.cap=""}
 knitr::include_graphics("img/copy-paste.jpg")
 ```
 
-## Activity for everyone
+</center>
+
+## Exercises
 
 &nbsp;
 
 Each Bootcamp page has **Exercises**
 
-One question is always to **write your own new question**
+One question is always  **write your own question**
 
-Time at the end for people to **share questions they have written**
+**Share questions you have written**
 
-I try to **categorize them** *Easy*, *Medium*, *Hard*
+**categorize them** *Easy*, *Medium*, or *Hard*
 
-Also, **relevant to page content**!

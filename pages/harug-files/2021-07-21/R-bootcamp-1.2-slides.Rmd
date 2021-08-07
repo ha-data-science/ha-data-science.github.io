@@ -14,12 +14,15 @@ knitr::opts_chunk$set(echo = FALSE)
 
 &nbsp;
 
-https://dsgarage.netlify.app/bootcamp/1.2-m1-function-and-packages/
+<center>
+
+A garage has toolboxes and tools
 
 ```{r, echo=FALSE, out.width="60%", fig.cap=""}
 knitr::include_graphics("img/toolbox.jpg")
 ```
 
+</center>
 
 ## What you will learn
 
@@ -51,31 +54,40 @@ argument_2 = value_2,<br>
 
 &nbsp;
 
-help(topic = <e.g. a function name>)
+<center>
 
-`help(topic = sd)`
+help(topic = <function name>), e.g. `help(topic = sd)`
 
-```{r, echo=F, out.width="60%", fig.cap=""}
+```{r, echo=F, out.width="75%", fig.cap=""}
 knitr::include_graphics("img/help.png")
 ```
 
+</center>
 
 ##  R "Packages"
 
 &nbsp;
 
-> Someone has probably created a tool to solve your problem.  You just have to find it.
+<center>
 
-```{r, echo=FALSE, out.width="30%", fig.cap=""}
+> Someone has probably created a tool (function) to solve your problem.  
+
+> You just have to find the toolbox (R package) it is in.
+
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
 knitr::include_graphics("img/toolbox.jfif")
 ```
 
-Packages contain functions that are useful
+</center>
 
 
 ## Finding, downloading and using packages
 
+<center>
+
 Finding packages happens a variety of ways in practice. A package may be recommended to you, you might be told to use a particular package for a task or assignment, or you may discover it on the web.
+
+</center>
 
 &nbsp;
 
@@ -86,9 +98,14 @@ Finding packages happens a variety of ways in practice. A package may be recomme
 # knitr::include_graphics("img/copy-paste.jpg")
 ```
 
-## Live coding demo
+## Live coding
+
+&nbsp;
+
+<center>
 
 ```{r, echo=FALSE, out.width="60%", fig.cap=""}
 knitr::include_graphics("img/cat-laptop.jfif")
 ```
 
+</center>

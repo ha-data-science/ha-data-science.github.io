@@ -14,12 +14,15 @@ knitr::opts_chunk$set(echo = FALSE)
 
 &nbsp;
 
-https://dsgarage.netlify.app/bootcamp/1.4-m1-data-frames/
+<center>
 
-```{r, echo=FALSE, out.width="30%", fig.cap=""}
+> Data should be tidy with *mis en place*
+
+```{r, echo=FALSE, out.width="35%", fig.cap=""}
 knitr::include_graphics("img/tidy.png")
 ```
 
+</center>
 
 ## What you will learn
 
@@ -37,10 +40,13 @@ knitr::include_graphics("img/tidy.png")
 
 &nbsp;
 
+<center>
 
 ```{r, echo=FALSE, out.width="80%", fig.cap=""}
 knitr::include_graphics("img/wickham-tidy.png")
 ```
+
+</center>
 
 ## "Tidy Data" concept
 
@@ -71,48 +77,71 @@ The data should be in a standard, accessible, reproducible, non-haphazard, forma
 
 - problem with explanation of variables
 
+&nbsp;
+
 **Excel is okay**, but must be **Tidy**
 
 **Avoid proprietary formats** (like SPSS, Genstat, etc.)
 
 
-##  Excel, data setup, and the Data Dictionary
+##  Data formats
+
+<center>
 
 ```{r, echo=F, out.width="80%", fig.cap="Untidy data in Excel"}
 knitr::include_graphics("img/1.4-untidy.png")
 ```
 
+</center>
 
-##  Excel, data setup, and the Data Dictionary
+
+##  Data formats
+
+<center>
 
 ```{r, echo=F, out.width="80%", fig.cap="Tidy data in Excel"}
 knitr::include_graphics("img/1.4-tidy.png")
 ```
 
+</center>
 
-##  Excel, data setup, and the Data Dictionary
+
+##  Data formats
+
+<center>
 
 ```{r, echo=F, out.width="80%", fig.cap="Data dictionary"}
 knitr::include_graphics("img/1.4-tidy-dictionary.png")
 ```
 
+</center>
 
-##  Excel, data setup, and the Data Dictionary
+
+##  Data formats
+
+<center>
 
 ```{r, echo=F, out.width="50%", fig.cap="Tidy csv"}
 knitr::include_graphics("img/1.4-tidy.csv.png")
 ```
+
+</center>
 
 
 ##  Getting data into R
 
 &nbsp;
 
+<center>
+
 Step 1 Set your working directory with code, or RStudio menus
 
 ```{r, echo=F, out.width="70%", fig.cap="Working directory menus"}
 knitr::include_graphics("img/1.4-working-directory.png")
 ```
+
+</center>
+
 
 ##  Getting data into R
 
@@ -146,9 +175,15 @@ many others exist
 - The use of the `attach()` function
 
 
-## Live coding demo
+## Live coding
+
+&nbsp;
+
+<center>
 
 ```{r, echo=FALSE, out.width="60%", fig.cap=""}
 knitr::include_graphics("img/cat-laptop.jfif")
 ```
+
+</center>
 

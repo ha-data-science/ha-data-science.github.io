@@ -10,16 +10,20 @@ output: ioslides_presentation
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
+
 ## Day 1 with R and Rstudio
 
 &nbsp;
 
+<center>
+
 https://dsgarage.netlify.app/bootcamp/0.1-bootcamp-intro/
 
-```{r, echo=FALSE, out.width="40%", fig.cap=""}
+```{r, echo=FALSE, out.width="50%", fig.cap=""}
 knitr::include_graphics("img/day1.png")
 ```
 
+</center>
 
 ## What will you learn?
 
@@ -27,24 +31,28 @@ knitr::include_graphics("img/day1.png")
 
 - Install R and RStudio
 
-- Read the pages and type and run all code
+- Practice of good, **reproducible** scripting
 
-- Practice good, **reproducible** scripting
+- Design vision of learning materials: Read the pages and type and run all code
 
 
 ## Tour of RStudio interface
 
-https://dsgarage.netlify.app/bootcamp/0.1-bootcamp-intro/#anchor-4
+<center>
 
-```{r, echo=FALSE, out.width="80%", fig.cap=""}
+```{r, echo=FALSE, out.width="90%", fig.cap=""}
 knitr::include_graphics("img/0.1-rstudio.png")
 ```
 
+</center>
+
 ## Reproducible script
 
-https://dsgarage.netlify.app/bootcamp/0.1-bootcamp-intro/#anchor-5
+<center>
 
-```{r, echo=FALSE, out.width="80%", fig.cap=""}
+```{r, echo=FALSE, out.width="90%", fig.cap=""}
 knitr::include_graphics("img/script.png")
 ```
+
+</center>
 
