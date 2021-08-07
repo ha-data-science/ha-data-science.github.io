@@ -31,11 +31,13 @@ ___
 <img src="hap-e-files/2021-08-06/img/stats.png" width="100" alt="Meeting thumbnail"/>
 </a> 
 
-Oops, no video this week
+ <font size="1"> Oops, no video this week </font> 
 
-**2021-08-06** (meeting #5) Stats framework in Python (Ed Harris) :: Colab tutorial =  <a href="https://colab.research.google.com/github/ha-data-science/ha-data-science.github.io/blob/main/pages/hap-e-files/2021-08-06/HAP-E-05-basic-stats.ipynb" target="_blank">
+**2021-08-06** (meeting #5) Stats framework in Python (Ed Harris) ::
+Colab tutorial =  <a href="https://colab.research.google.com/github/ha-data-science/ha-data-science.github.io/blob/main/pages/hap-e-files/2021-08-06/HAP-E-05-basic-stats.ipynb" target="_blank">
     <img class="colab-badge" src="../img/colab-open.svg" alt="Colab Notebook"/>
-  </a> :: [potato data xlsx](hap-e-files/2021-08-06/potatoes.xlsx) 
+  </a> ::
+[potato data xlsx](hap-e-files/2021-08-06/potatoes.xlsx) 
 
 &nbsp;
 
@@ -43,9 +45,12 @@ Oops, no video this week
 <img src="hap-e-files/2021-07-30/img/hap-e-data-wrangling.png" width="100" alt="Meeting thumbnail"/>
 </a> 
 
-**2021-07-30** (meeting #4) Topic TBA (George Wager) :: Colab tutorial =  <a href="https://colab.research.google.com/github/ha-data-science/ha-data-science.github.io/blob/main/pages/hap-e-files/2021-07-30/Data-Tidying.ipynb" target="_blank">
+**2021-07-30** (meeting #4) Topic TBA (George Wager) ::
+Colab tutorial =  <a href="https://colab.research.google.com/github/ha-data-science/ha-data-science.github.io/blob/main/pages/hap-e-files/2021-07-30/Data-Tidying.ipynb" target="_blank">
     <img class="colab-badge" src="../img/colab-open.svg" alt="Colab Notebook"/>
-  </a> :: [Tidy data R script](hap-e-files/2021-07-30/studentperformancecomparisonscript.R) :: [Tidy data example data csv](hap-e-files/2021-07-30/studentperformance.csv)
+  </a> ::
+[Tidy data R script](hap-e-files/2021-07-30/studentperformancecomparisonscript.R) ::
+[Tidy data example data csv](hap-e-files/2021-07-30/studentperformance.csv)
 
 &nbsp;
 
@@ -53,7 +58,8 @@ Oops, no video this week
 <img src="hap-e-files/2021-07-23/img/hap-e-python-graphs.png" width="100" alt="Meeting thumbnail"/>
 </a> 
 
-**2021-07-23** (meeting #3) Graphing in Python (Joe Roberts) :: Colab tutorial =  <a href="https://colab.research.google.com/github/ha-data-science/ha-data-science.github.io/blob/main/pages/hap-e-files/2021-07-23/Data_Visualisation_w_Python_(2021_07_23).ipynb" target="_blank">
+**2021-07-23** (meeting #3) Graphing in Python (Joe Roberts) ::
+Colab tutorial =  <a href="https://colab.research.google.com/github/ha-data-science/ha-data-science.github.io/blob/main/pages/hap-e-files/2021-07-23/Data_Visualisation_w_Python_(2021_07_23).ipynb" target="_blank">
     <img class="colab-badge" src="../img/colab-open.svg" alt="Colab Notebook"/>
   </a>
 
@@ -63,7 +69,8 @@ Oops, no video this week
 <img src="hap-e-files/2021-07-16/img/hap-e-data-struc.png" width="100" alt="Meeting thumbnail"/>
 </a> 
 
-**2021-07-16** (meeting #2) Handling files in Python (Joe Mhango) :: Colab tutorial =  <a href="https://colab.research.google.com/github/ha-data-science/ha-data-science.github.io/blob/main/pages/hap-e-files/2021-07-16/basicPandasCode.ipynb" target="_blank">
+**2021-07-16** (meeting #2) Handling files in Python (Joe Mhango) ::
+Colab tutorial =  <a href="https://colab.research.google.com/github/ha-data-science/ha-data-science.github.io/blob/main/pages/hap-e-files/2021-07-16/basicPandasCode.ipynb" target="_blank">
     <img class="colab-badge" src="../img/colab-open.svg" alt="Colab Notebook"/>
   </a>
   
@@ -74,7 +81,8 @@ Oops, no video this week
 </a> 
 
 **2021-07-09** (meeting #1) HAP-E Group Launch and Google Colab (Ed Harris) ::
-[ppt](hap-e-files/2021-07-09/2021-07-09 HAP-E launch.pptx) :: Colab tutorial =  <a href="https://colab.research.google.com/github/ha-data-science/ha-data-science.github.io/blob/main/pages/hap-e-files/2021-07-09/HAP-E-colab-tutorial.ipynb" target="_blank">
+[HAP-E group launch slides ppt](hap-e-files/2021-07-09/2021-07-09 HAP-E launch.pptx) ::
+Colab tutorial =  <a href="https://colab.research.google.com/github/ha-data-science/ha-data-science.github.io/blob/main/pages/hap-e-files/2021-07-09/HAP-E-colab-tutorial.ipynb" target="_blank">
     <img class="colab-badge" src="../img/colab-open.svg" alt="Colab Notebook"/>
   </a>
  
