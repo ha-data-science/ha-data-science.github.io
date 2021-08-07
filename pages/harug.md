@@ -25,7 +25,7 @@ title: "HARUG! Harper Adams R Users Group"
 
 ___
   
-<a href="" target="_blank">
+<a href="https://youtu.be/Bt2f902F5Po" target="_blank">
 <img src="harug-files/2021-08-04/img/Bootcamp-1.4.png" width="100" alt="Meeting thumbnail"/>
 </a> 
 

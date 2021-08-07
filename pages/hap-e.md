@@ -31,13 +31,15 @@ ___
 <img src="hap-e-files/2021-08-06/img/stats.png" width="100" alt="Meeting thumbnail"/>
 </a> 
 
+Oops, no video this week
+
 **2021-08-06** (meeting #5) Stats framework in Python (Ed Harris) :: Colab tutorial =  <a href="https://colab.research.google.com/github/ha-data-science/ha-data-science.github.io/blob/main/pages/hap-e-files/2021-08-06/HAP-E-05-basic-stats.ipynb" target="_blank">
     <img class="colab-badge" src="../img/colab-open.svg" alt="Colab Notebook"/>
   </a> :: [potato data xlsx](hap-e-files/2021-08-06/potatoes.xlsx) 
 
 &nbsp;
 
-<a href="" target="_blank">
+<a href="https://youtu.be/gf9qFpdOr0Q" target="_blank">
 <img src="hap-e-files/2021-07-30/img/hap-e-data-wrangling.png" width="100" alt="Meeting thumbnail"/>
 </a> 
 

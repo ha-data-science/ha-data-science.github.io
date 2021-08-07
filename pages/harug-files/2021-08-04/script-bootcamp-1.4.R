@@ -62,6 +62,7 @@ my_data <- read.xlsx("1.4-tidy.xlsx")
 
 class(my_data) # data.frame, a generic class for holding data
 
+
 ## The ```names()``` function ####
 
 # The names() function returns the name of attributes in R objects
