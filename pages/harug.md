@@ -25,7 +25,16 @@ title: "HARUG! Harper Adams R Users Group"
 
 ___
   
-**2021-08-11** (meeting #65) R Bootcamp 1.5 Data subsetting and manipulation (Ed Harris)
+<a href="" target="_blank">
+<img src="harug-files/2021-08-11/img/Bootcamp-1.5.png" width="100" alt="Meeting thumbnail"/>
+</a> 
+
+**2021-08-11** (meeting #65) R Bootcamp 1.5 Data subsetting and manipulation (Ed Harris) ::
+[R Bootcamp 1.5 slides Rmd](harug-files/2021-08-11/R-bootcamp-1.5-slides.Rmd) ::
+[R Bootcamp 1.5 slides HTML](harug-files/2021-08-11/R-bootcamp-1.5-slides.html) ::
+[R Bootcamp webpage 1.5  Data frames](https://dsgarage.netlify.app/bootcamp/1.5-m1-data-subsetting-and-manipulation/) ::
+[Script template](harug-files/files/script-template.R) ::
+[Script bootcamp 1.5](harug-files/2021-08-11/script-bootcamp-1.5.R)
 
 &nbsp;
 
