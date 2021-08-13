@@ -38,9 +38,7 @@ Colab tutorial =  <a href="https://colab.research.google.com/github/ha-data-scie
   </a> ::
 [HAP-E ML concept slides Rmd](hap-e-files\2021-08-13/HAP-E-ml-intro-slides.Rmd) ::
 [HAP-E ML concept slides HTML](hap-e-files\2021-08-13/HAP-E-ml-intro-slides.html) ::
-[R Bootcamp webpage 1.5  Data` frames](https://dsgarage.netlify.app/bootcamp/1.5-m1-data-subsetting-and-manipulation/) ::
-[Script template](harug-files/files/script-template.R) ::
-[Script bootcamp 1.5](harug-files/2021-08-11/script-bootcamp-1.5.R)
+[advertising data csv](https://github.com/ha-data-science/ha-data-science.github.io/blob/main/pages/hap-e-files/2021-08-13/data/Advertising.csv)
 
 &nbsp;
 
