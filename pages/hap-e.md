@@ -27,7 +27,7 @@ ___
 
 &nbsp;
 
-<a href="" target="_blank">
+<a href="https://youtu.be/tSq2GpnBfho" target="_blank">
 <img src="hap-e-files/2021-08-13/img/hap-e-ml-concept.png" width="100" alt="Meeting thumbnail"/>
 </a> 
 
