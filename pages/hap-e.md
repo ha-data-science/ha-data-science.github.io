@@ -17,15 +17,33 @@ title: "HAP-E Group Harper Adams Python Enthusiasts Group"
 
 **Weekly live meetings Friday at 1pm (online for now)**
 
-[**Join us on Slack**](https://join.slack.com/t/harper-adams-rug/shared_invite/zt-azcm9z6s-WsY9JXvAs8DW1DLQuU3USg) (kindly register with your real name, e.g. "Alan Turing")
+[**Join us on Slack**](https://join.slack.com/t/harper-adams-rug/shared_invite/zt-azcm9z6s-WsY9JXvAs8DW1DLQuU3USg) (kindly register with your real name, e.g. "Ada Lovelace" or "Alan Turing")
 
 &nbsp;
 
 ___
 
-**2021-08-13** (meeting #6) Topic TBA (Presenter TBA)
+**2021-09-09** (meeting #7) Python Bootcamp #1 (Ed Harris)
 
 &nbsp;
+
+<a href="" target="_blank">
+<img src="hap-e-files/2021-08-13/img/hap-e-ml-concept.png" width="100" alt="Meeting thumbnail"/>
+</a> 
+
+
+**2021-08-13** (meeting #6) Machine learning concept (Ed Harris) ::
+Colab tutorial =  <a href="https://colab.research.google.com/github/ha-data-science/ha-data-science.github.io/blob/main/pages/hap-e-files/2021-08-13/HAP-E_ML_linear_regression.ipynb" target="_blank">
+    <img class="colab-badge" src="../img/colab-open.svg" alt="Colab Notebook"/>
+  </a> ::
+[HAP-E ML concept slides Rmd](hap-e-files\2021-08-13/HAP-E-ml-intro-slides.Rmd) ::
+[HAP-E ML concept slides HTML](hap-e-files\2021-08-13/HAP-E-ml-intro-slides.html) ::
+[R Bootcamp webpage 1.5  Data` frames](https://dsgarage.netlify.app/bootcamp/1.5-m1-data-subsetting-and-manipulation/) ::
+[Script template](harug-files/files/script-template.R) ::
+[Script bootcamp 1.5](harug-files/2021-08-11/script-bootcamp-1.5.R)
+
+&nbsp;
+
 
 <a href="" target="_blank">
 <img src="hap-e-files/2021-08-06/img/stats.png" width="100" alt="Meeting thumbnail"/>
