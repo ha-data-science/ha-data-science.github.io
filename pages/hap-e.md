@@ -21,21 +21,6 @@ title: "HAP-E Group Harper Adams Python Enthusiasts Group"
 
 &nbsp;
 
-# A collapsible section with markdown
-<details>
-  <summary>Click to expand!</summary>
-  
-  ## Heading
-  1. A numbered
-  2. list
-     * With some
-     * Sub bullets
-     
-  ```{r}
-  hist(1:10)
-  ```
-
-</details>
 ___
 
 **2021-09-09** (meeting #7) Python Bootcamp #1 (Ed Harris)
