@@ -26,7 +26,7 @@ Material for C7081 labs follows the spirit and select content of:
 
 - Start with a simple [template script](files/script-template.R)
 
-- Type 100% of you own code and do not copy and paste any code
+- Type 100% of your own code and do not copy and paste any code
 
 &nbsp;
 
