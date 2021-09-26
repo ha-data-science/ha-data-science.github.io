@@ -8,7 +8,7 @@ output: html_document
 <center>
 ![](img/c7081-2021.png)
 
-# C7081 lab 03 Linear regression
+# C7081 lab 04 Classification
 </center>
 
 &nbsp;
@@ -16,6 +16,16 @@ output: html_document
 Material for C7081 labs follows the spirit and select content of:
 
 [James, G., Witten, D., Hastie, T., Tibshirani, R., 2021. An Introduction to Statistical Learning: with Applications in R, Springer Texts in Statistics 2ed. Springer-Verlag, New York.](https://www.statlearning.com/)
+
+&nbsp;
+
+### Recommendations
+
+- Use a formal, reproducible R script to solve each lab
+
+- Start with a simple [template script](files/script-template.R)
+
+- Type 100% of you own code and do not copy and paste any code
 
 &nbsp;
 

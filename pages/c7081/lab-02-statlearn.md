@@ -19,6 +19,16 @@ Material for C7081 labs follows the spirit and select content of:
 
 &nbsp;
 
+### Recommendations
+
+- Use a formal, reproducible R script to solve each lab
+
+- Start with a simple [template script](files/script-template.R)
+
+- Type 100% of you own code and do not copy and paste any code
+
+&nbsp;
+
 ## Basic Commands
 
 `R` uses *functions* to perform operations. To run a function called `funcname`, we type `funcname(input1, input2)`, where the inputs (or *arguments*) `input1` and `input2` tell `R`

@@ -19,6 +19,16 @@ Material for C7081 labs follows the spirit and select content of:
 
 &nbsp;
 
+### Recommendations
+
+- Use a formal, reproducible R script to solve each lab
+
+- Start with a simple [template script](files/script-template.R)
+
+- Type 100% of you own code and do not copy and paste any code
+
+&nbsp;
+
 ## Libraries
 
 The `library()` function is used to load *libraries*, or groups of  functions and data sets that are not included in the base `R` distribution. Basic functions that perform least squares linear regression and other simple analyses come standard with the base distribution,  but more exotic functions require additional libraries.  Here we will load the `MASS` package, which is a very large collection of data sets and functions. We also load the `ISLR2` package, which includes the data sets associated with James et al. 2021.
