@@ -54,9 +54,10 @@ library(ISLR2)
 
 # see ?sample for details
 set.seed(1)
-train <- sample(x = 392, n = 196)
+train <- sample(x = 392, size = 196)
 
 train
+
 ```
 
 &nbsp;
@@ -81,9 +82,14 @@ attach(Auto)
 mean((mpg - predict(lm.fit, Auto))[-train]^2)
 ```
 
+```
+> mean((mpg - predict(lm.fit, Auto))[-train]^2)
+[1] 23.26601
+```
+
 &nbsp;
 
-Therefore, the estimated test MSE for the linear regression fit is $25.73$. We can use the `poly()` function to estimate the test error for the quadratic and cubic regressions.
+We see above the estimated test MSE for the linear regression fit. We can use the `poly()` function to estimate the test error for the quadratic and cubic regressions.
 
 &nbsp;
 
@@ -97,9 +103,16 @@ lm.fit3 <- lm(mpg ~ poly(horsepower, 3), data = Auto,
 mean((mpg - predict(lm.fit3, Auto))[-train]^2)
 ```
 
+```
+> mean((mpg - predict(lm.fit2, Auto))[-train]^2)
+[1] 18.71646
+
+> mean((mpg - predict(lm.fit3, Auto))[-train]^2)
+[1] 18.79401
+```
 &nbsp;
 
-These error rates are $19.05$ and $19.66$, respectively. If we choose a different training set instead, then we will obtain somewhat different errors on the validation set.
+We can see the MSE for the second and third order polynomials is a bit lower. If we choose a different training set instead, then we will obtain somewhat different errors on the validation set.
 
 &nbsp;
 

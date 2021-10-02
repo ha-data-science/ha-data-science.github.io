@@ -1,0 +1,39 @@
+---
+title: "Untitled"
+author: "Ed Harris"
+date: "9/28/2021"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## My bibliography Zotero
+
+O’Connell, J., Bradter, U., Benton, T.G., 2015. Wide-area mapping of small-scale features in agricultural landscapes using airborne remote sensing. ISPRS Journal of Photogrammetry and Remote Sensing 109, 165–177. https://doi.org/10.1016/j.isprsjprs.2015.09.007
+
+
+## My bibliography Google
+
+O’Connell, J., Bradter, U. and Benton, T.G., 2015. Wide-area mapping of small-scale features in agricultural landscapes using airborne remote sensing. ISPRS journal of photogrammetry and remote sensing, 109, pp.165-177.
+
+## More stuff
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

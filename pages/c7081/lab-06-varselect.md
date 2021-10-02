@@ -57,7 +57,7 @@ sum(is.na(Hitters$Salary))
 
 &nbsp;
 
-Hence we see that `Salary` is missing for $59$ players. The `na.omit()` function removes all of the rows that have missing values in any variable.
+The sum of `is.na()` shows that `Salary` is missing for $59$ players. The `na.omit()` function removes all of the rows that have missing values in any variable.
 
 &nbsp;
 
@@ -82,8 +82,7 @@ summary(regfit.full)
 
 &nbsp;
 
-An asterisk indicates that a given variable is included in the corresponding model.
-For instance, this output indicates that the best two-variable model contains only `Hits` and `CRBI`.
+An asterisk indicates that a given variable is included in the corresponding model. For instance, this output indicates that the best two-variable model contains only `Hits` and `CRBI`.
 
 &nbsp;
 
@@ -94,7 +93,7 @@ By default, `regsubsets()` only reports results up to the best eight-variable mo
 ```r
 regfit.full <- regsubsets(Salary ~ ., data = Hitters,
     nvmax = 19)
-reg.summary <- summary(regfit.full)
+summary(regfit.full)
 ```
 
 &nbsp;
@@ -107,6 +106,10 @@ The `summary()` function also returns $R^2$, RSS, adjusted $R^2$, $C_p$, and BIC
 names(reg.summary)
 ```
 
+```
+[1] "which"  "rsq"    "rss"    "adjr2"  "cp"     "bic"    "outmat" "obj"   
+```
+
 &nbsp;
 
 For instance, we see that the $R^2$ statistic increases from $32\,\%$, when only one variable is included in the model, to almost $55\,\%$, when all variables are included. As expected, the $R^2$ statistic increases monotonically as more variables are included.
@@ -115,6 +118,11 @@ For instance, we see that the $R^2$ statistic increases from $32\,\%$, when only
 
 ```r
 reg.summary$rsq
+```
+```
+ [1] 0.3214501 0.4252237 0.4514294 0.4754067 0.4908036 0.5087146 0.5141227
+ [8] 0.5285569 0.5346124 0.5404950 0.5426153 0.5436302 0.5444570 0.5452164
+[15] 0.5454692 0.5457656 0.5459518 0.5460945 0.5461159
 ```
 
 &nbsp;
@@ -133,6 +141,9 @@ plot(reg.summary$adjr2, xlab = "Number of Variables",
 
 par(mfrow = c(1, 1)) # Put default graph display back    
 ```
+<center>
+![](img/06-01-rss.png)
+</center>
 
 &nbsp;
 
@@ -142,10 +153,17 @@ The `points()` command works like the `plot()` command, except that it puts poin
 
 ```r
 which.max(reg.summary$adjr2)
-plot(reg.summary$adjr2, xlab = "Number of Variables",
-    ylab = "Adjusted RSq", type = "l")
-points(11, reg.summary$adjr2[11], col = "red", cex = 2, 
-    pch = 20)
+
+plot(reg.summary$adjr2, 
+     xlab = "Number of Variables",
+     ylab = "Adjusted RSq", 
+     type = "l")
+
+points(11, 
+       reg.summary$adjr2[11], 
+       col = "red", 
+       cex = 2, 
+       pch = 20)
 ```
 
 &nbsp;
@@ -157,9 +175,12 @@ In a similar fashion we can plot the $C_p$ and BIC statistics, and indicate the 
 ```r
 par(mfrow = c(1, 2)) # format graph display
 
-plot(reg.summary$cp, xlab = "Number of Variables",
-    ylab = "Cp", type = "l")
+plot(reg.summary$cp, 
+     xlab = "Number of Variables",
+     ylab = "Cp", type = "l")
+
 which.min(reg.summary$cp)
+
 points(10, reg.summary$cp[10], col = "red", cex = 2,
     pch = 20)
     

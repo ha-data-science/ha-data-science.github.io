@@ -43,6 +43,10 @@ summary(Smarket)
 pairs(Smarket)
 ```
 
+<center>
+![](img/04-01-pairs.png)
+</center>
+
 &nbsp;
 
 The `cor()` function produces a matrix that contains all of the pairwise correlations among the predictors in a data set. The first command below gives an error message because the `direction` variable is qualitative.
@@ -52,6 +56,30 @@ The `cor()` function produces a matrix that contains all of the pairwise correla
 ```r
 cor(Smarket)
 cor(Smarket[, -9])
+```
+
+```
+> cor(Smarket)
+Error in cor(Smarket) : 'x' must be numeric
+> cor(Smarket[, -9])
+             Year         Lag1         Lag2         Lag3         Lag4
+Year   1.00000000  0.029699649  0.030596422  0.033194581  0.035688718
+Lag1   0.02969965  1.000000000 -0.026294328 -0.010803402 -0.002985911
+Lag2   0.03059642 -0.026294328  1.000000000 -0.025896670 -0.010853533
+Lag3   0.03319458 -0.010803402 -0.025896670  1.000000000 -0.024051036
+Lag4   0.03568872 -0.002985911 -0.010853533 -0.024051036  1.000000000
+Lag5   0.02978799 -0.005674606 -0.003557949 -0.018808338 -0.027083641
+Volume 0.53900647  0.040909908 -0.043383215 -0.041823686 -0.048414246
+Today  0.03009523 -0.026155045 -0.010250033 -0.002447647 -0.006899527
+               Lag5      Volume        Today
+Year    0.029787995  0.53900647  0.030095229
+Lag1   -0.005674606  0.04090991 -0.026155045
+Lag2   -0.003557949 -0.04338321 -0.010250033
+Lag3   -0.018808338 -0.04182369 -0.002447647
+Lag4   -0.027083641 -0.04841425 -0.006899527
+Lag5    1.000000000 -0.02200231 -0.034860083
+Volume -0.022002315  1.00000000  0.014591823
+Today  -0.034860083  0.01459182  1.000000000
 ```
 
 &nbsp;
@@ -64,6 +92,10 @@ As one would expect, the correlations between the lag variables and today's retu
 attach(Smarket)
 plot(Volume)
 ```
+
+<center>
+![](img/04-02-smarket-plot.png)
+</center>
 
 &nbsp;
 
@@ -87,6 +119,36 @@ glm.fits <- glm(
 summary(glm.fits)
 ```
 
+```
+> summary(glm.fits)
+
+Call:
+glm(formula = Direction ~ Lag1 + Lag2 + Lag3 + Lag4 + Lag5 + 
+    Volume, family = binomial, data = Smarket)
+
+Deviance Residuals: 
+   Min      1Q  Median      3Q     Max  
+-1.446  -1.203   1.065   1.145   1.326  
+
+Coefficients:
+             Estimate Std. Error z value Pr(>|z|)
+(Intercept) -0.126000   0.240736  -0.523    0.601
+Lag1        -0.073074   0.050167  -1.457    0.145
+Lag2        -0.042301   0.050086  -0.845    0.398
+Lag3         0.011085   0.049939   0.222    0.824
+Lag4         0.009359   0.049974   0.187    0.851
+Lag5         0.010313   0.049511   0.208    0.835
+Volume       0.135441   0.158360   0.855    0.392
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 1731.2  on 1249  degrees of freedom
+Residual deviance: 1727.6  on 1243  degrees of freedom
+AIC: 1741.6
+
+Number of Fisher Scoring iterations: 3
+```
+
 &nbsp;
 
 The smallest $p$-value here is associated with `lag1`. The negative coefficient for this predictor suggests that if the market had a positive return yesterday, then it is less likely to go up today. However, at a value of $0.15$, the $p$-value is still relatively large, and so there is no clear evidence of a real association between `lagone` and `direction`. 
@@ -98,9 +160,41 @@ We use the `coef()` function in order to access just the coefficients for this f
 &nbsp;
 
 ```r
-coef(glm.fits)
+# ANOVA table of coefficients
 summary(glm.fits)$coef
+
+# Just the parameter estimates
+coef(glm.fits)
+
+# Just the p-values
 summary(glm.fits)$coef[, 4]
+```
+
+```
+> # ANOVA table of coefficients
+> summary(glm.fits)$coef
+                Estimate Std. Error    z value  Pr(>|z|)
+(Intercept) -0.126000257 0.24073574 -0.5233966 0.6006983
+Lag1        -0.073073746 0.05016739 -1.4565986 0.1452272
+Lag2        -0.042301344 0.05008605 -0.8445733 0.3983491
+Lag3         0.011085108 0.04993854  0.2219750 0.8243333
+Lag4         0.009358938 0.04997413  0.1872757 0.8514445
+Lag5         0.010313068 0.04951146  0.2082966 0.8349974
+Volume       0.135440659 0.15835970  0.8552723 0.3924004
+> 
+> # Just the parameter estimates
+> coef(glm.fits)
+ (Intercept)         Lag1         Lag2         Lag3 
+-0.126000257 -0.073073746 -0.042301344  0.011085108 
+        Lag4         Lag5       Volume 
+ 0.009358938  0.010313068  0.135440659 
+> 
+> # Just the p-values
+> summary(glm.fits)$coef[, 4]
+(Intercept)        Lag1        Lag2        Lag3 
+  0.6006983   0.1452272   0.3983491   0.8243333 
+       Lag4        Lag5      Volume 
+  0.8514445   0.8349974   0.3924004 
 ```
 
 &nbsp;
@@ -117,6 +211,18 @@ We know that these values correspond to the probability of the market going up, 
 glm.probs <- predict(glm.fits, type = "response")
 glm.probs[1:10]
 contrasts(Direction)
+```
+
+```
+> glm.probs[1:10]
+        1         2         3         4         5 
+0.5070841 0.4814679 0.4811388 0.5152224 0.5107812 
+        6         7         8         9        10 
+0.5069565 0.4926509 0.5092292 0.5176135 0.4888378 
+> contrasts(Direction)
+     Up
+Down  0
+Up    1
 ```
 
 &nbsp;
@@ -141,6 +247,18 @@ The first command creates a vector of 1,250  `Down` elements. The second line tr
 table(glm.pred, Direction)
 (507 + 145) / 1250
 mean(glm.pred == Direction)
+```
+
+```
+> table(glm.pred, Direction)
+        Direction
+glm.pred Down  Up
+    Down  145 141
+    Up    457 507
+> (507 + 145) / 1250
+[1] 0.5216
+> mean(glm.pred == Direction)
+[1] 0.5216
 ```
 
 &nbsp;
@@ -176,6 +294,9 @@ The object `train` is a  *Boolean*  vector, since its elements are `TRUE` and `F
 &nbsp;
 
 Boolean vectors can be used to obtain a subset of the rows or columns of a matrix. For instance, the command `Smarket[train, ]` would pick out a submatrix of the stock market data set, corresponding only to the dates before 2005, since those are the ones for which the elements of `train` are `TRUE`.
+
+&nbsp;
+
 The `!` symbol can be used to reverse all of the elements of  a Boolean vector. That is, `!train` is a vector similar to `train`, except that  the elements that are `TRUE` in `train` get swapped to `FALSE` in `!train`, and the elements that are `FALSE` in `train` get swapped to `TRUE` in `!train`. 
 
 &nbsp;
@@ -214,6 +335,18 @@ mean(glm.pred == Direction.2005)
 mean(glm.pred != Direction.2005)
 ```
 
+```
+> table(glm.pred, Direction.2005)
+        Direction.2005
+glm.pred Down Up
+    Down   77 97
+    Up     34 44
+> mean(glm.pred == Direction.2005)
+[1] 0.4801587
+> mean(glm.pred != Direction.2005)
+[1] 0.5198413
+```
+
 &nbsp;
 
 The `!=` notation means *not equal to*, and  so the last command computes the  test set error rate. The results are rather disappointing: the test error rate is $52$\,\%, which is worse than random guessing! Of course this result is not all that surprising, given that one would not generally expect to be able to  use previous days' returns to predict future market performance. (After all, if it were possible to do so, then the authors of this book would be out striking it rich rather than writing a statistics textbook.)
@@ -239,6 +372,17 @@ table(glm.pred, Direction.2005)
 mean(glm.pred == Direction.2005)
 106 / (106 + 76)
 ```
+```
+> table(glm.pred, Direction.2005)
+        Direction.2005
+glm.pred Down  Up
+    Down   35  35
+    Up     76 106
+> mean(glm.pred == Direction.2005)
+[1] 0.5595238
+> 106 / (106 + 76)
+[1] 0.5824176
+```
 
 &nbsp;
 
@@ -263,6 +407,16 @@ predict(glm.fits,
   )
 ```
 
+```
+> predict(glm.fits,
++     newdata =
++       data.frame(Lag1 = c(1.2, 1.5),  Lag2 = c(1.1, -0.8)),
++     type = "response"
++   )
+        1         2 
+0.4791462 0.4960939 
+```
+
 &nbsp;
 
 ## Linear Discriminant Analysis
@@ -278,9 +432,13 @@ library(MASS)
 lda.fit <- lda(Direction ~ Lag1 + Lag2, data = Smarket,
     subset = train)
 lda.fit
+par(mfrow=c(1,1))
 plot(lda.fit)
 ```
 
+<center>
+![](img/04-03-lda.png)
+</center>
 &nbsp;
 
 The LDA output indicates that $\hat\pi_1=0.492$ and $\hat\pi_2=0.508$; in other words, $49.2$\,\% of the training observations correspond to days during which the market went down.

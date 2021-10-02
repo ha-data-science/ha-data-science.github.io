@@ -40,9 +40,10 @@ In this lab, we will analyze `Wage` data, in order to illustrate the fact that m
 
 ```r
 library(ISLR2)
-attach(Wage)
 
 ?Wage
+
+attach(Wage)
 ```
 
 &nbsp;
@@ -59,6 +60,15 @@ We first fit the model using the following command:
 fit <- lm(wage ~ poly(age, 4), data = Wage)
 
 coef(summary(fit))
+```
+
+```
+                Estimate Std. Error    t value     Pr(>|t|)
+(Intercept)    111.70361  0.7287409 153.283015 0.000000e+00
+poly(age, 4)1  447.06785 39.9147851  11.200558 1.484604e-28
+poly(age, 4)2 -478.31581 39.9147851 -11.983424 2.355831e-32
+poly(age, 4)3  125.52169 39.9147851   3.144742 1.678622e-03
+poly(age, 4)4  -77.91118 39.9147851  -1.951938 5.103865e-02
 ```
 
 &nbsp;
