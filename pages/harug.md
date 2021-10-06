@@ -26,6 +26,19 @@ title: "HARUG! Harper Adams R Users Group"
 ___
   
 <a href="" target="_blank">
+<img src="harug-files/2021-10-06 bootcamp 2.1/img/Bootcamp-2.1.png" width="100" alt="Meeting thumbnail"/>
+</a> 
+
+**2021-10-06** (meeting #66) R Bootcamp 2.1 Question, Explore, Analyze (Ed Harris) ::
+[R Bootcamp 2.1 slides Rmd](harug-files/2021-10-06 bootcamp 2.1/R-bootcamp-2.1-slides.Rmd) ::
+[R Bootcamp 2.1 slides HTML](harug-files/2021-10-06 bootcamp 2.1/R-bootcamp-2.1-slides.html) ::
+[R Bootcamp webpage 2.1  Data frames](https://dsgarage.netlify.app/bootcamp/1.5-m1-data-subsetting-and-manipulation/) ::
+[Script template](harug-files/files/script-template.R) ::
+[Script bootcamp 2.1](harug-files/2021-10-06 bootcamp 2.1/script-bootcamp-2.1.R)
+
+&nbsp;
+
+<a href="" target="_blank">
 <img src="harug-files/2021-08-11/img/Bootcamp-1.5.png" width="100" alt="Meeting thumbnail"/>
 </a> 
 
