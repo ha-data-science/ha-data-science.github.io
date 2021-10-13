@@ -155,7 +155,7 @@ hist(mypois,
 ## Poisson
 
 ```{r, echo=FALSE, out.width="60%", fig.cap=""}
-knitr::include_graphics("img/cat-laptop.jfif")
+knitr::include_graphics("img/2.2-pois-density.png")
 ```
 
 
@@ -198,7 +198,7 @@ knitr::include_graphics("img/2.2-binom-density.png")
 <center>
 
 ```{r, echo=FALSE, out.width="80%", fig.cap=""}
-knitr::include_graphics("img/2.2-pois-density.png")
+knitr::include_graphics("img/cat-laptop.jfif")
 ```
 
 </center>
