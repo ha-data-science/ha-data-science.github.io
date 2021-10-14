@@ -41,9 +41,9 @@ help(vector) # Initialize a variable to hold our sample means
 
 # We will do a "for loop" with for()
 
-mymeans <- vector(mode = "numeric",
+mymean <- vector(mode = "numeric",
                   length = 100)
-mymeans # Empty
+mymean # Empty
 
 for(i in 1:100){
   mysample <- sample(x = cats, # Takes a random sample
