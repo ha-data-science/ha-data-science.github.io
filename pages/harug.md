@@ -26,29 +26,29 @@ title: "HARUG! Harper Adams R Users Group"
 ___
   
 <a href="" target="_blank">
-<img src="harug-files/2021-10-13 bootcamp 2.2/img/Bootcamp-2.2.png" width="100" alt="Meeting thumbnail"/>
+<img src="harug-files/2021-10-13-bootcamp-2.2/img/Bootcamp-2.2.png" width="100" alt="Meeting thumbnail"/>
 </a> 
 
 **2021-10-13 bootcamp 2.2** (meeting #66) R Bootcamp 2.2 Distributions (Ed Harris) ::
-[R Bootcamp 2.2 slides Rmd](harug-files/2021-10-13 bootcamp 2.2/R-bootcamp-2.2-slides.Rmd) ::
-[R Bootcamp 2.2 slides HTML](harug-files/2021-10-13 bootcamp 2.2/R-bootcamp-2.2-slides.html) ::
+[R Bootcamp 2.2 slides Rmd](harug-files/2021-10-13-bootcamp-2.2/R-bootcamp-2.2-slides.Rmd) ::
+[R Bootcamp 2.2 slides HTML](harug-files/2021-10-13-bootcamp-2.2/R-bootcamp-2.2-slides.html) ::
 [R Bootcamp webpage 2.2  Distributions](https://dsgarage.netlify.app/bootcamp/2.2-m2-sampling-and-distributions//) ::
 [Script template](harug-files/files/script-template.R) ::
-[Script bootcamp 2.2](harug-files/2021-10-13 bootcamp 2.2/script-bootcamp-2.2.R)
+[Script bootcamp 2.2](harug-files/2021-10-13-bootcamp-2.2/script-bootcamp-2.2.R)
 
 &nbsp;
 
 
 <a href="https://youtu.be/5jWZTQfUFqQ" target="_blank">
-<img src="harug-files/2021-10-06 bootcamp 2.1/img/Bootcamp-2.1.png" width="100" alt="Meeting thumbnail"/>
+<img src="harug-files/2021-10-06-bootcamp-2.1/img/Bootcamp-2.1.png" width="100" alt="Meeting thumbnail"/>
 </a> 
 
 **2021-10-06** (meeting #66) R Bootcamp 2.1 Question, Explore, Analyze (Ed Harris) ::
-[R Bootcamp 2.1 slides Rmd](harug-files/2021-10-06 bootcamp 2.1/R-bootcamp-2.1-slides.Rmd) ::
-[R Bootcamp 2.1 slides HTML](harug-files/2021-10-06 bootcamp 2.1/R-bootcamp-2.1-slides.html) ::
+[R Bootcamp 2.1 slides Rmd](harug-files/2021-10-06-bootcamp-2.1/R-bootcamp-2.1-slides.Rmd) ::
+[R Bootcamp 2.1 slides HTML](harug-files/2021-10-06-bootcamp-2.1/R-bootcamp-2.1-slides.html) ::
 [R Bootcamp webpage 2.1  Data frames](https://dsgarage.netlify.app/bootcamp/2.1-m2-question-explore-analyze/) ::
 [Script template](harug-files/files/script-template.R) ::
-[Script bootcamp 2.1](harug-files/2021-10-06 bootcamp 2.1/script-bootcamp-2.1.R)
+[Script bootcamp 2.1](harug-files/2021-10-06-bootcamp-2.1/script-bootcamp-2.1.R)
 
 &nbsp;
 
