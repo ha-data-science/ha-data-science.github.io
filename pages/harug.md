@@ -1,6 +1,7 @@
 ---
 title: "HARUG! Harper Adams R Users Group"
 # date: Last edited 2021-07-28
+output: html_document
 ---
 
 <center>
@@ -26,10 +27,23 @@ title: "HARUG! Harper Adams R Users Group"
 ___
   
 <a href="" target="_blank">
+<img src="harug-files/2021-10-20-bootcamp-2.3/img/Bootcamp-2.3.png" width="100" alt="Meeting thumbnail"/>
+</a> 
+
+**2021-10-20 bootcamp 2.3** (meeting #68) R Bootcamp 2.3 Distributions (Ed Harris) ::
+[R Bootcamp 2.3 slides Rmd](harug-files/2021-10-20-bootcamp-2.3/R-bootcamp-2.3-slides.Rmd) ::
+[R Bootcamp 2.3 slides HTML](harug-files/2021-10-20-bootcamp-2.3/R-bootcamp-2.3-slides.html) ::
+[R Bootcamp webpage 2.3  Distributions](https://dsgarage.netlify.app/bootcamp/2.3-m2-correlation/) ::
+[Script template](harug-files/files/script-template.R) ::
+[Script bootcamp 2.3](harug-files/2021-10-20-bootcamp-2.3/script-bootcamp-2.3.R)
+
+&nbsp;
+
+<a href="https://youtu.be/MYin2LRQ6wk" target="_blank">
 <img src="harug-files/2021-10-13-bootcamp-2.2/img/Bootcamp-2.2.png" width="100" alt="Meeting thumbnail"/>
 </a> 
 
-**2021-10-13 bootcamp 2.2** (meeting #66) R Bootcamp 2.2 Distributions (Ed Harris) ::
+**2021-10-13 bootcamp 2.2** (meeting #67) R Bootcamp 2.2 Distributions (Ed Harris) ::
 [R Bootcamp 2.2 slides Rmd](harug-files/2021-10-13-bootcamp-2.2/R-bootcamp-2.2-slides.Rmd) ::
 [R Bootcamp 2.2 slides HTML](harug-files/2021-10-13-bootcamp-2.2/R-bootcamp-2.2-slides.html) ::
 [R Bootcamp webpage 2.2  Distributions](https://dsgarage.netlify.app/bootcamp/2.2-m2-sampling-and-distributions//) ::
