@@ -27,13 +27,26 @@ output: html_document
 ___
   
 <a href="" target="_blank">
+<img src="harug-files/2021-10-27-bootcamp-2.4/img/Bootcamp-2.4.png" width="100" alt="Meeting thumbnail"/>
+</a> 
+
+**2021-10-20 bootcamp 2.4** (meeting #69) R Bootcamp 2.4 Simple linear regression (Ed Harris) ::
+[R Bootcamp 2.4 slides Rmd](harug-files/2021-10-27-bootcamp-2.4/R-bootcamp-2.4-slides.Rmd) ::
+[R Bootcamp 2.4 slides HTML](harug-files/2021-10-27-bootcamp-2.4/R-bootcamp-2.4-slides.html) ::
+[R Bootcamp webpage 2.4 Regression](https://dsgarage.netlify.app/bootcamp/2.4-m2-correlation/) ::
+[Script template](harug-files/files/script-template.R) ::
+[Script bootcamp 2.4](harug-files/2021-10-27-bootcamp-2.4/script-bootcamp-2.4.R)
+
+&nbsp;
+
+<a href="https://youtu.be/wfTlkLSeV9g" target="_blank">
 <img src="harug-files/2021-10-20-bootcamp-2.3/img/Bootcamp-2.3.png" width="100" alt="Meeting thumbnail"/>
 </a> 
 
 **2021-10-20 bootcamp 2.3** (meeting #68) R Bootcamp 2.3 Distributions (Ed Harris) ::
 [R Bootcamp 2.3 slides Rmd](harug-files/2021-10-20-bootcamp-2.3/R-bootcamp-2.3-slides.Rmd) ::
 [R Bootcamp 2.3 slides HTML](harug-files/2021-10-20-bootcamp-2.3/R-bootcamp-2.3-slides.html) ::
-[R Bootcamp webpage 2.3  Distributions](https://dsgarage.netlify.app/bootcamp/2.3-m2-correlation/) ::
+[R Bootcamp webpage 2.3  Correlation](https://dsgarage.netlify.app/bootcamp/2.3-m2-correlation/) ::
 [Script template](harug-files/files/script-template.R) ::
 [Script bootcamp 2.3](harug-files/2021-10-20-bootcamp-2.3/script-bootcamp-2.3.R)
 

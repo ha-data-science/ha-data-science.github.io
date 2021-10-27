@@ -50,9 +50,11 @@ boxplot(x = my_var)
 # Challenge 1: Add a title to you boxplot using the argument "main"
 # Challenge 2: Add an axis label to the y-axis - can you find the argument?
 
+#function_name(arg1, arg2, arg2, etc)
+
 boxplot(x = my_var,
-        
-        )
+        main = 'My fancy title',
+        ylab = 'My variable (units)')
 
 ## 1.2.2 Using functions and getting help ####
 # Challenge: Install and load the "ggplo2" package, 
@@ -73,17 +75,23 @@ ggplot(data = my_dat,
      aes(x = x, y = y)) + 
 geom_boxplot()
 
+boxplot(y ~ x, data = my_dat)
 
 ## 1.2.5 Practice exercises ####
 
 ### Ex 01 ####
 # Explain in your own words what the freq argument in 
-# the hist() function does.  It often helps to practice trail 
+# the hist() function does.  It often helps to practice trial 
 # and error to understand what is happening with data.  
 # Try experimenting with this data vector with the hist() 
 # function to explore the freq argument:
- 
-c(1,2,4,3,5,6,7,8,6,5,5,5,3,4,5,7)
+test <- c(1,2,4,3,5,6,7,8,6,5,5,5,3,4,5,7)
+
+help(hist)
+
+hist(test)
+hist(test, freq = TRUE) 
+hist(test, freq = FALSE) 
 
   
 ### Ex 02 ####
