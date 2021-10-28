@@ -121,10 +121,11 @@ lines(                       # lines() function
   col = "green4", lty = 1, lwd = 3) # Mere vanity
 
 # Make x points for theoretical Gaussian
-x <- seq(-1,+1,by=0.02) 
+x <- 1
 
 # Draw on theoretical Gaussian for our residual parameters
-curve(dnorm(x, mean = mean(residuals(mylm)),
+curve(dnorm(x = 1:10, mean = mean(residuals(mylm))))
+curve(dnorm(x= NULL, mean = mean(residuals(mylm)),
             sd = sd(residuals(mylm))),
       add = T,
       col = "blue", lty = 3, lwd = 3) # mere vanity
