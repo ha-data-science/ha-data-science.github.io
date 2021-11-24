@@ -26,11 +26,53 @@ output: html_document
 
 ___
   
-<a href="" target="_blank">
+**2021-11-24 R sample size simulation** (meeting #73) R sample size simulation (Przemek Dolowy) ::
+[R sample size simulation ppt](harug-files/2021-11-24-R-sample-size-sim/Poisson for HARUG.pptx) ::
+[R sample size simulation files](harug-files/2021-11-24-R-sample-size-sim/R-sample-size-sim.zip) ::
+
+
+&nbsp;
+
+<a href="https://youtu.be/BS9Ts8QVKww" target="_blank">
+<img src="harug-files/2021-11-17-NLP-basics/img/NLP-basics.png" width="100" alt="Meeting thumbnail"/>
+</a> 
+
+**2021-11-17 NLP basics** (meeting #72) Python NLP Basics (Ed Harris) ::
+[NLP basics files zip](harug-files/2021-11-17-NLP-basics/hap-e-nlp.zip)
+
+
+
+&nbsp;
+
+<a href="https://youtu.be/e0B5tXfPAgM" target="_blank">
+<img src="harug-files/2021-11-10-bootcamp-2.6/img/Bootcamp-2.6.png" width="100" alt="Meeting thumbnail"/>
+</a> 
+
+**2021-11-10 bootcamp 2.6** (meeting #71) R Bootcamp 2.6 1-way ANOVA (Ed Harris) ::
+[R Bootcamp webpage 2.6 Regression](https://dsgarage.netlify.app/bootcamp/2.6-1-way-anova/) ::
+[Script template](harug-files/files/script-template.R)
+
+
+&nbsp;
+
+<a href="https://youtu.be/Bt2f902F5Po" target="_blank">
+<img src="harug-files/2021-11-03-bootcamp-2.5/img/Bootcamp-2.5.png" width="100" alt="Meeting thumbnail"/>
+</a> 
+
+**2021-11-03 bootcamp 2.5** (meeting #70) R Bootcamp 2.5 T-test (Ed Harris) ::
+[R Bootcamp 2.5 slides Rmd](harug-files/2021-11-03-bootcamp-2.5/R-bootcamp-2.5-slides.Rmd) ::
+[R Bootcamp 2.5 slides HTML](harug-files/2021-11-03-bootcamp-2.5/R-bootcamp-2.5-slides.html) ::
+[R Bootcamp webpage 2.5 Regression](https://dsgarage.netlify.app/bootcamp/2.5-m2-t-test/) ::
+[Script template](harug-files/files/script-template.R) ::
+[Script bootcamp 2.5](harug-files/2021-11-03-bootcamp-2.5/script-bootcamp-2.5.R)
+
+&nbsp;
+
+<a href="https://youtu.be/Eaao5s6EupI" target="_blank">
 <img src="harug-files/2021-10-27-bootcamp-2.4/img/Bootcamp-2.4.png" width="100" alt="Meeting thumbnail"/>
 </a> 
 
-**2021-10-20 bootcamp 2.4** (meeting #69) R Bootcamp 2.4 Simple linear regression (Ed Harris) ::
+**2021-10-27 bootcamp 2.4** (meeting #69) R Bootcamp 2.4 Simple linear regression (Ed Harris) ::
 [R Bootcamp 2.4 slides Rmd](harug-files/2021-10-27-bootcamp-2.4/R-bootcamp-2.4-slides.Rmd) ::
 [R Bootcamp 2.4 slides HTML](harug-files/2021-10-27-bootcamp-2.4/R-bootcamp-2.4-slides.html) ::
 [R Bootcamp webpage 2.4 Regression](https://dsgarage.netlify.app/bootcamp/2.4-m2-correlation/) ::

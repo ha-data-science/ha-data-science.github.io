@@ -122,7 +122,7 @@ lines(                       # lines() function
 
 # Make x points for theoretical Gaussian
 x <- 1
-
+?
 # Draw on theoretical Gaussian for our residual parameters
 curve(dnorm(x = 1:10, mean = mean(residuals(mylm))))
 curve(dnorm(x= NULL, mean = mean(residuals(mylm)),

@@ -4,7 +4,7 @@ title: "HAP-E Group Harper Adams Python Enthusiasts Group"
 ---
 
 <center>
-   <img src="../img/HAP-E-logo.png" alt="HARUG" width="125"/>
+   <img src="../img/HAP-E-logo.png" alt="HAP-E Group" width="125"/>
 
 &nbsp;
 

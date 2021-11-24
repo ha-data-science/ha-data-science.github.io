@@ -147,8 +147,16 @@ conc.ind # Is Sir feeling well, Sir?
 # Show the code to convert the diet variable to an ordinal factor 
 # with the order "control" > "enhanced", and the sex variable to 
 # a plain categorical factor.
+library(openxlsx)
+setwd(r'(D:\Dropbox\git-hads\ha-data-science.github.io\pages\harug-files\2021-08-04)')
+data1 <- read.xlsx('1.4-butterfly.xlsx') 
 
+data1[ ,"diet"] <- factor(x = data1[ ,"diet"], levels = c("control", "enhanced"))
+data1$diet <- factor(data1$diet, ordered = T, levels = c("enhanced", "control"))
+str(data1)
+data1$diet
 
+class(data1$diet)
 ### 03 ####
 # Show code for 2 different variations of using only the "[ , ]" operator 
 # with your data frame to show the following output:
