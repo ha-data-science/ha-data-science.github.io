@@ -26,9 +26,30 @@ output: html_document
 
 ___
   
+Future: 2021-12-15 (Ed/multiple) (R/Python) Last meeting of 2021. Christmas card data viz activity
+
+Future: 2021-12-08 (Ed) (R) Primer on mixed effects models and blocking
+
+
+&nbsp;
+
+<a href="" target="_blank">
+<img src="harug-files/2021-12-01-NLP-sentiment-analysis/img/NLP-sentiment.png" width="100" alt="Meeting thumbnail"/>
+</a> 
+
+**Future: 2021-12-01 NLP sentiment analysis** (meeting #74) Python NLP sentiment analysis (Ed Harris) ::
+
+
+
+&nbsp;
+
+<a href="https://youtu.be/GnCsywQvycU" target="_blank">
+<img src="harug-files/2021-11-24-R-sample-size-sim/img/Sample-size.png" width="100" alt="Meeting thumbnail"/>
+</a> 
+
 **2021-11-24 R sample size simulation** (meeting #73) R sample size simulation (Przemek Dolowy) ::
 [R sample size simulation ppt](harug-files/2021-11-24-R-sample-size-sim/Poisson for HARUG.pptx) ::
-[R sample size simulation files](harug-files/2021-11-24-R-sample-size-sim/R-sample-size-sim.zip) ::
+[R sample size simulation files](harug-files/2021-11-24-R-sample-size-sim/R-sample-size-sim.zip) 
 
 
 &nbsp;
@@ -39,7 +60,6 @@ ___
 
 **2021-11-17 NLP basics** (meeting #72) Python NLP Basics (Ed Harris) ::
 [NLP basics files zip](harug-files/2021-11-17-NLP-basics/hap-e-nlp.zip)
-
 
 
 &nbsp;
