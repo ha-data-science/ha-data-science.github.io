@@ -41,7 +41,9 @@ Future: 2021-12-08 (Ed) (R) Primer on mixed effects models and blocking
 <img src="harug-files/2021-12-01-NLP-sentiment-analysis/img/NLP-sentiment.png" width="100" alt="Meeting thumbnail"/>
 </a> 
 
-**Future: 2021-12-01 NLP sentiment analysis** (meeting #74) Python NLP sentiment analysis (Ed Harris) ::
+2021-12-01 NLP sentiment analysis** (meeting #74) Python NLP sentiment analysis (Ed Harris) :: Colab tutorial basic Sentiment Analysis =  <a href="https://colab.research.google.com/github/ha-data-science/ha-data-science.github.io/blob/main/pages/harug-files/2021-12-01/chapter11_part01_introduction.ipynb" target="_blank">
+    <img class="colab-badge" src="../img/colab-open.svg" alt="Colab Notebook"/>
+  </a> 
 
 
 
