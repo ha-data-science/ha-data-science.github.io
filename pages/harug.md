@@ -26,6 +26,10 @@ output: html_document
 
 ___
   
+Future: 2022-01-19 (Matt Butler) (R + Python together!) Scraping API for spatial data 
+
+Future: 2022-01-12 (George Wager) (R) Reproducible statistical report in R Markdown
+
 Future: 2021-12-15 (Ed/multiple) (R/Python) Last meeting of 2021. Christmas card data viz activity
 
 Future: 2021-12-08 (Ed) (R) Primer on mixed effects models and blocking
