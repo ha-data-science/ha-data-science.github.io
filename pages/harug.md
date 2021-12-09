@@ -26,24 +26,35 @@ output: html_document
 
 ___
 ---
-
+Future: 2022-01-26 (meeting #79) R for best practice for non-R users, a workflow for supervisors, students, and other interesting people (Ed Harris)
   
-Future: 2022-01-19 (Matt Butler) (R + Python together!) Scraping API for spatial data 
+Future: 2022-01-19 (meeting #78) R + Python Scraping API for spatial data  (Matt Butler)
 
-Future: 2022-01-12 (George Wager) (R) Reproducible statistical report in R Markdown
+Future: 2022-01-12 (meeting #77) Reproducible statistical report in R Markdown (George Wager)
 
-Future: 2021-12-15 (Ed/multiple) (R/Python) Last meeting of 2021. Christmas card data viz activity
+Future: 2021-12-15  (meeting #76) Last meeting of 2021. R/Python Christmas card data viz activity (Ed Harris/everyone) 
 
-Future: 2021-12-08 (Ed) (R) Primer on mixed effects models and blocking
+ 
 
 
 &nbsp;
 
-<a href="" target="_blank">
+<a href="https://youtu.be/YtARlZysA9w" target="_blank">
+<img src="harug-files/2021-12-08-LME/img/LME.png" width="100" alt="Meeting thumbnail"/>
+</a> 
+
+**2021-12-08 (meeting #75) R Primer on mixed effects models and blocking** (Ed Harris) ::
+[LME + Blocking script and data zip](harug-files/2021-11-24-R-sample-size-sim/Poisson for HARUG.pptx) ::
+[R sample size simulation files](harug-files/2021-11-24-R-sample-size-sim/R-sample-size-sim.zip) 
+
+
+&nbsp;
+
+<a href="https://youtu.be/_hbCfoSigkg" target="_blank">
 <img src="harug-files/2021-12-01-NLP-sentiment-analysis/img/NLP-sentiment.png" width="100" alt="Meeting thumbnail"/>
 </a> 
 
-2021-12-01 NLP sentiment analysis** (meeting #74) Python NLP sentiment analysis (Ed Harris) :: Colab tutorial basic Sentiment Analysis =  <a href="https://colab.research.google.com/github/ha-data-science/ha-data-science.github.io/blob/main/pages/harug-files/2021-12-01-NLP-sentiment-analysis/chapter11_part01_introduction.ipynb" target="_blank">
+**2021-12-01 NLP sentiment analysis** (meeting #74) Python NLP sentiment analysis (Ed Harris) :: Colab tutorial basic Sentiment Analysis =  <a href="https://colab.research.google.com/github/ha-data-science/ha-data-science.github.io/blob/main/pages/harug-files/2021-12-01-NLP-sentiment-analysis/chapter11_part01_introduction.ipynb" target="_blank">
     <img class="colab-badge" src="../img/colab-open.svg" alt="Colab Notebook"/>
   </a>  :: [NLP Going Farther (zip with more iPython notebooks...)](harug-files/2021-12-01-NLP-sentiment-analysis/chapter11_going_farther.zip)
 
