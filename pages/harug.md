@@ -44,8 +44,8 @@ Future: 2021-12-15  (meeting #76) Last meeting of 2021. R/Python Christmas card 
 </a> 
 
 **2021-12-08 (meeting #75) R Primer on mixed effects models and blocking** (Ed Harris) ::
-[LME + Blocking script and data zip](harug-files/2021-11-24-R-sample-size-sim/Poisson for HARUG.pptx) ::
-[R sample size simulation files](harug-files/2021-11-24-R-sample-size-sim/R-sample-size-sim.zip) 
+[LME + Blocking ppt](harug-files/2021-12-08-LME/2021-12-08-LME.pptx) ::
+[LME + Blocking script and data zip](harug-files/2021-12-08-LME/2021-12-08-LME.zip) 
 
 
 &nbsp;
