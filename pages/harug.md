@@ -39,6 +39,16 @@ Future: 2021-12-15  (meeting #76) Last meeting of 2021. R/Python Christmas card 
 
 &nbsp;
 
+<a href="" target="_blank">
+<img src="harug-files/2021-12-15-data-viz/img/data-viz.png" width="100" alt="Meeting thumbnail"/>
+</a> 
+
+**2021-12-15  (meeting #76) Last meeting of 2021. R/Python Christmas card data viz activity** (Ed Harris/everyone) :: [Tidy Tuesday Github Repository spiders data](https://github.com/rfordatascience/tidytuesday/tree/master/data/2021/2021-12-07) :: 
+[Tidy Tuesday script](harug-files/2021-12-15-data-viz/data.viz.R) 
+
+
+&nbsp;
+
 <a href="https://youtu.be/YtARlZysA9w" target="_blank">
 <img src="harug-files/2021-12-08-LME/img/LME.png" width="100" alt="Meeting thumbnail"/>
 </a> 
