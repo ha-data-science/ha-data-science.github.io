@@ -39,7 +39,7 @@ Future: 2021-12-15  (meeting #76) Last meeting of 2021. R/Python Christmas card 
 
 &nbsp;
 
-<a href="" target="_blank">
+<a href="https://youtu.be/fpJ3IEoSLQE" target="_blank">
 <img src="harug-files/2021-12-15-data-viz/img/data-viz.png" width="100" alt="Meeting thumbnail"/>
 </a> 
 

@@ -33,14 +33,16 @@ spiders <- spidata$spiders
 summary(spiders$year)
 2021-1757
 
+spiders$year[which(spiders$author == 'Linnaeus')]
+
 myseq <- seq(from = 1, to = (2021-1757), by = 20)
 barplot(count(spiders, year)$n)
 axis(side = 1, at =  myseq, las = 2,
      labels = c(1757:2021)[myseq])
 
 
-x<-barplot(count(spiders, year)$n,
-        col = rep(c('red', 'white'), each = 4),
+x <- barplot(count(spiders, year)$n,
+        col = rep(c('goldenrod', 'blue'), each = 4),
         ylab = '# Species per year')
 axis(side = 1, at =  x, las = 2,
      labels = sort(unique(spiders$year)), cex.axis=.5)
@@ -86,7 +88,8 @@ par(mar = c(4,6,0,1))
 names <- barplot(log(spct$n)+1,
                  col = rep(edcol[1:2], each = 5),
                  horiz = T)
-axis(side = 2, at = names, labels = spct$family, las = 2, cex.axis = .4)
+axis(side = 2, at = names, labels = spct$family, 
+     las = 2, cex.axis = .4)
 mtext(text = 'Family name', side = 2, line = 4.5)
 mtext(text = '# Species (log)', side = 1, line = 2)
 
@@ -101,7 +104,6 @@ arrows(x0 = 6.4, x1 = 6.4,
        length = 0)
 
 
-
 # Maybe one of them there polar barplots
 # https://www.r-graph-gallery.com/295-basic-circular-barplot.html
 
@@ -113,12 +115,7 @@ ggplot(spct, aes(x = as.factor(family)), y = log(n)) +
   theme(
     axis.title = element_blank(),
     panel.grid = element_blank(),
-    plot.margin = unit(rep(0,4), "cm")     # This remove unnecessary margin around plot
+    plot.margin = unit(rep(0,4), "cm")     
   )
-
-
-
-
-
 
 
