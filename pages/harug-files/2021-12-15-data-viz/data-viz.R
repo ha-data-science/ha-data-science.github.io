@@ -90,7 +90,7 @@ names <- barplot(log(spct$n)+1,
                  horiz = T)
 axis(side = 2, at = names, labels = spct$family, 
      las = 2, cex.axis = .4)
-mtext(text = 'Family name', side = 2, line = 4.5)
+mtext(text = 'Spider family name', side = 2, line = 4.5)
 mtext(text = '# Species (log)', side = 1, line = 2)
 
 

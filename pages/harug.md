@@ -24,17 +24,35 @@ output: html_document
 
 &nbsp;
 
-___
 ---
+
+Future: 2022-02-11 (meeting #81) Volunteers, suggestions?
+
+Future: 2022-02-02 (meeting #80) Making a website with the {distill} package, R Markdown and Hugo (Joe Roberts)
+
 Future: 2022-01-26 (meeting #79) R for best practice for non-R users, a workflow for supervisors, students, and other interesting people (Ed Harris)
-  
-Future: 2022-01-19 (meeting #78) R + Python Scraping API for spatial data  (Matt Butler)
 
-Future: 2022-01-12 (meeting #77) Reproducible statistical report in R Markdown (George Wager)
+---
 
-Future: 2021-12-15  (meeting #76) Last meeting of 2021. R/Python Christmas card data viz activity (Ed Harris/everyone) 
+&nbsp;
 
- 
+
+<a href="" target="_blank">
+<img src="harug-files/2022-01-19-spatial/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
+</a> Video placeholder
+
+**2022-01-19 (meeting #78) R + Python Scraping API for spatial data ** (Matt Butler) :: [](harug-files/2022-01-19-spatial/) :: 
+[](harug-files/2022-01-19-spatial/) :: [](harug-files/2022-01-19-spatial/)
+
+
+&nbsp;
+
+<a href="" target="_blank">
+<img src="harug-files/2022-01-12-Rmd/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
+</a> No video for this week
+
+**2022-01-12 (meeting #77) Reproducible statistical report in R Markdown** (George Wager) :: [Ed example .Rmd for stats report](harug-files/2022-01-12-Rmd/alistair.Rmd) :: 
+[Ed example data](harug-files/2022-01-12-Rmd/Alistair-data-ed.xlsx) :: [Ed example .pdf output](harug-files/2022-01-12-Rmd/alistair.pdf)
 
 
 &nbsp;

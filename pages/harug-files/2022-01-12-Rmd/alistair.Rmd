@@ -1,0 +1,127 @@
+---
+title: "Alistair's beet story"
+author: "Ed Harris"
+date: "2021-11-17"
+output: pdf_document
+---
+
+```{r setup, include=FALSE, warning = F}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## 00 Background
+
+**The replication is too small to perform 2-way ANOVA** legitimately in my opinion (best practice is 3 reps per main effect). E.g., you would be advised to have a minimum of n=6 reps for 2-way ANOVA and no interaction effect, but here you have n=3.  
+
+**The design does not really fit a dose design** based on the information I have (not enough dose levels or replication).
+
+**I would suggest 1-way ANOVA** converting the 2 factors to a single one with 5 levels: control, A100, A200, B100, B200. With this analysis, post hoc tests would allow further mean comparisons, but the statistical power will probably be very low.
+
+```{r, warning=F}
+library(openxlsx)
+library(agricolae)
+data <- read.xlsx('Alistair-data-ed.xlsx')
+data$treat2 <- factor(data$treat2, 
+                      levels = c('Control', 'A100', 
+                                 'A200', 'B100', 'B200'))
+```
+
+\newpage
+
+## **Plot_wt_g** 1-way ANOVA and *post hoc*
+
+```{r, warning = F}
+boxplot(Plot_wt_g ~ treat2, data = data,
+        xlab = 'Treatment',
+        ylab = 'Sample weight (g)')
+stripchart(Plot_wt_g ~ treat2, data = data,
+           add=T, vert = T, method = 'jitter',
+           pch = 16, col = 'red')
+
+
+m1 <- aov(Plot_wt_g ~ treat2, data = data)
+summary(m1)
+TukeyHSD(m1)
+# HSD.test(y = m1, trt = 'treat2', group=T, console=T)
+
+```
+
+\newpage
+
+## **Sugar_pct** 1-way ANOVA and *post hoc*
+
+```{r, warning = F}
+
+boxplot(Sugar_pct ~ treat2, data = data,
+        xlab = 'Treatment',
+        ylab = 'Sugar %')
+stripchart(Sugar_pct ~ treat2, data = data,
+           add=T, vert = T, method = 'jitter',
+           pch = 16, col = 'red')
+
+
+m2 <- aov(Sugar_pct ~ treat2, data = data)
+summary(m2)
+TukeyHSD(m2)
+
+```
+
+\newpage
+
+## **AmNit** 1-way ANOVA and *post hoc*
+
+```{r, warning = F}
+
+boxplot(AmNit ~ treat2, data = data,
+        xlab = 'Treatment',
+        ylab = expression(paste('NH'[4],'NO'[3])))
+stripchart(AmNit ~ treat2, data = data,
+           add=T, vert = T, method = 'jitter',
+           pch = 16, col = 'red')
+
+
+m3 <- aov(AmNit ~ treat2, data = data)
+summary(m3)
+TukeyHSD(m3)
+
+```
+
+\newpage
+
+## **Sod** 1-way ANOVA and *post hoc*
+
+```{r, warning = F}
+
+boxplot(Sod ~ treat2, data = data,
+        xlab = 'Treatment',
+        ylab = 'Na (mg/100g)')
+stripchart(Sod ~ treat2, data = data,
+           add=T, vert = T, method = 'jitter',
+           pch = 16, col = 'red')
+
+
+m4 <- aov(Sod ~ treat2, data = data)
+summary(m4)
+TukeyHSD(m4)
+
+```
+
+\newpage
+
+## **Pot** 1-way ANOVA and *post hoc*
+
+```{r, warning = F}
+
+boxplot(Pot ~ treat2, data = data,
+        xlab = 'Treatment',
+        ylab = 'K (mg/100g)')
+stripchart(Pot ~ treat2, data = data,
+           add=T, vert = T, method = 'jitter',
+           pch = 16, col = 'red')
+
+
+m5 <- aov(Pot ~ treat2, data = data)
+summary(m5)
+TukeyHSD(m5)
+
+```
