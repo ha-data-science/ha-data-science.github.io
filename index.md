@@ -4,6 +4,8 @@ title: "Harper Statistics and Data Science Pages"
 ---
 
 <center>
+   <img src="img/harug-2022a.png" alt="HAP-E group" width="100">
+   <img src="img/eda-2021.png" alt="HARUG" width="100">
    <img src="img/HAP-E-logo.png" alt="HAP-E group" width="100">
    <img src="img/HARUG.png" alt="HARUG" width="125">
    <img src="img/harug-quarantine.png" alt="HARUG quarantine" width="110">
@@ -36,7 +38,7 @@ title: "Harper Statistics and Data Science Pages"
 <center> 
 <table>
     <tr>
-        <th><img src="img/harug-quarantine.png" alt="HARUG" width="75"></th>
+        <th><img src="img/harug-2022a.png" alt="HARUG" width="75"></th>
         <th><img src="img/HAP-E-logo.png" alt="HAP-E group" width="75"></th>
     </tr>
     <tr>

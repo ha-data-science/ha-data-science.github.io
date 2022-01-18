@@ -5,8 +5,7 @@ output: html_document
 ---
 
 <center>
-   <img src="../img/HARUG.png" alt="HARUG" width="125"/>
-   <img src="../img/harug-quarantine.png" alt="HARUG quarantine" width="110"/>
+   <img src="../img/harug-2022a.png" alt="HARUG" width="125"/>
 
 &nbsp;
 
