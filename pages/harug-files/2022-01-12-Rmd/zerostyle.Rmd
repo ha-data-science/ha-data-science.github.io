@@ -1,0 +1,166 @@
+---
+title: "Zero Style R Markdown"
+author: "G Wager"
+date: "12/01/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, include=FALSE}
+if(!require("openxlsx"))install.packages("openxlsx")
+library(openxlsx) # load data 
+if(!require("ggplot2")) install.packages("ggplot2")
+library(ggplot2) # visualization
+if(!require("dplyr"))install.packages("dplyr") 
+library(dplyr) # data wrangling package
+if(!require("kableExtra"))install.packages("kableExtra") 
+library(kableExtra)
+
+data <- read.xlsx("99_plant_data.xlsx") # loading data
+```
+
+## Summary
+Each plant (n =99) was counted on two separate occasions (1st and 2nd count). The second count was significantly different to the first.The relationship between the 1st count and the 2nd count with the below count was significant.
+
+Variety impacts the stem number per plant,additionally plants of Lanorma had two more stems than Piper.
+
+## Data
+
+```{r myTable, echo=FALSE}
+head(data) %>%
+  kable() %>%
+  kable_styling()
+```
+
+The **"ID"** is a character that represents the Plant ID, variety is a factor with two levels "lanorma" and "piper". **"above_stems_a"** is the number of stems identified on the 1st count before treatment with **"above_stems_b"** the number of stems above the ground in the 2nd count taken after chemical treatment. **"below_stems"** is the number of stems counted below the ground and **"rotten"** is the number of rotten tubers per plant.
+
+## Analysis
+
+```{r, include = FALSE}
+
+## Graphs ####
+data$ID <- as.character(data$ID) # turning it into a character 
+data$variety <- as.factor(data$variety) # turning it into a factor
+
+# EDA
+
+# Bar Graphs
+# which variety had the most rotten spuds
+ggplot(data, aes(x = variety, y = rotten)) +
+  geom_boxplot() # lanorma
+
+# boxplot of the above stems 1st count
+ggplot(data, aes(y = above_stems_a)) +
+  geom_boxplot() # median = 5 
+
+table(data$above_stems_a)
+summary(data$above_stems_a) # mean = 5.4 
+# on average the above stem count for each plant was 5.4
+
+ggplot(data, aes(y = above_stems_b)) +
+  geom_boxplot() # median = 7 
+
+table(data$above_stems_b)
+summary(data$above_stems_b) # mean = 7.5
+# more stems were counted in the 2nd count (secondary stems?)
+
+# scatter plots
+# relationship between above and below stems
+ggplot(data, aes(x = above_stems_a, y = below_stems)) +
+  geom_point()
+
+```
+
+#### Graph 1: Demonstarting the increase in stem number for each variety
+
+```{r, echo = FALSE}
+
+# looking at the difference between a and b on the same graph
+newdata <- append(data$above_stems_a, data$above_stems_b) # put b at the bottom of A
+# set 1st 99 rows as a 
+# set 2nd 99 rows as b
+count <- c(1:198)
+newdata <- data.frame(newdata, count) # add count to the newdata
+
+newdata <- newdata %>% 
+  mutate(number_count = case_when(count == c(1:99) ~ '1st', count == c(100:198) ~ '2nd'))
+
+newdata <- cbind.data.frame(data$variety, newdata) # creating a new data frame
+
+names(newdata) <- c("variety", "stem", "count", "number")
+newdata$count <- as.character(newdata$count)
+newdata$number <- as.factor(newdata$number)
+         
+ggplot(newdata, aes(x = number, y = stem, fill = variety)) +
+  geom_boxplot() +
+  xlab("1st or 2nd Count") +
+  ylab("Stem Count/Plant") +
+  theme_classic()
+
+```
+
+#### Graph 2: Demonstarting the relationship between 1st above ground stem count and the below ground stem count for each plant *(r = 0.74, p = 0.001)*
+
+```{r, include=FALSE}
+
+# is their a relationship between above and below stems
+cor(data$above_stems_a, data$below_stems) # 0.74 correlation between above (first count) and below stems
+cor.test(data$above_stems_a, data$below_stems) # significant correlation
+
+cor(data$above_stems_b, data$below_stems) # 0.53 correlation between above (second count) and below stems
+cor.test(data$above_stems_b, data$below_stems) # significant relationship
+
+# is their a relationship between above and below stems
+cor(data$above_stems_a, data$below_stems) # 0.74 correlation between above (first count) and below stems
+cor.test(data$above_stems_a, data$below_stems) # significant correlation
+
+cor(data$above_stems_b, data$below_stems) # 0.53 correlation between above (second count) and below stems
+cor.test(data$above_stems_b, data$below_stems) # significant relationship
+
+
+# linear regression
+a <- lm(below_stems ~ above_stems_a,
+        data = data)
+summary(a)
+
+```
+
+
+```{r, echo=FALSE}
+
+ggplot(data, aes(x = above_stems_a, 
+                      y = below_stems)) +
+  geom_point() +
+  theme_minimal() +
+  xlab("Above stems (First Count) per plant") +
+  ylab("No of below stems counted per plant") +    
+  geom_smooth(method = lm)
+
+```
+
+
+#### Graph 3: Demonstarting the relationship between 2nd above ground stem count and the below ground stem count for each plant *(r = 0.53, p = 0.001)*
+
+```{r, include=FALSE}
+b <- lm(below_stems ~ above_stems_b,
+        data = data) # linear regression
+
+summary(b)
+```
+
+
+
+```{r, echo=FALSE}
+
+ggplot(data, aes(x = above_stems_b, 
+                 y = below_stems)) +
+  geom_point() +
+  theme_minimal() +
+  xlab("Above stems (Secound Count) per plant") +
+  ylab("No of below stems counted per plant") +    
+  geom_smooth(method = lm)
+
+```

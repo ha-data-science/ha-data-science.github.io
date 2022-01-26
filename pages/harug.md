@@ -63,7 +63,7 @@ Future: 2022-01-26 (meeting #79) R for best practice for non-R users, a workflow
 <img src="harug-files/2022-01-12-Rmd/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
 </a> No video for this week
 
-**2022-01-12 (meeting #77) Reproducible statistical report in R Markdown** (George Wager) :: [Ed example .Rmd for stats report](harug-files/2022-01-12-Rmd/alistair.Rmd) :: 
+**2022-01-12 (meeting #77) Reproducible statistical report in R Markdown** (George Wager) :: [George reproducible Rmd](harug-files/2022-01-12-Rmd/zerostyle.Rmd) :: [George zerostyle Rmd](harug-files/2022-01-12-Rmd/reproducible_rmarkdownv01.Rmd) :: [Ed example .Rmd for stats report](harug-files/2022-01-12-Rmd/alistair.Rmd) :: 
 [Ed example data](harug-files/2022-01-12-Rmd/Alistair-data-ed.xlsx) :: [Ed example .pdf output](harug-files/2022-01-12-Rmd/alistair.pdf)
 
 
