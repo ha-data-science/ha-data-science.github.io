@@ -25,6 +25,8 @@ output: html_document
 
 ---
 
+Future: 2022-02-18 (meeting #82) Volunteers, suggestions?
+
 Future: 2022-02-11 (meeting #81) Volunteers, suggestions?
 
 Future: 2022-02-02 (meeting #80) Making a website with the {distill} package, R Markdown and Hugo (Joe Roberts)
@@ -37,8 +39,19 @@ Future: 2022-01-26 (meeting #79) R for best practice for non-R users, a workflow
 
 
 <a href="" target="_blank">
-<img src="harug-files/2022-01-19-spatial/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
+<img src="harug-files/2022-01-26-reprex/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
 </a> Video placeholder
+
+**2022-01-19 2022-01-26 (meeting #79) R for best practice for non-R users** (Ed Harris) :: [Slides](harug-files/2022-01-26-reprex/reprex-slides.html) :: 
+[Slides script](harug-files/2022-01-26-reprex/reprex-slides.Rmd) :: [Example script](harug-files/2022-01-26-reprex/reprex-code.R)
+
+
+&nbsp;
+
+
+<a href="" target="_blank">
+<img src="harug-files/2022-01-19-spatial/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
+</a> No video for this week
 
 **2022-01-19 (meeting #78) R + Python Scraping API for spatial data ** (Matt Butler) :: [](harug-files/2022-01-19-spatial/) :: 
 [](harug-files/2022-01-19-spatial/) :: [](harug-files/2022-01-19-spatial/)

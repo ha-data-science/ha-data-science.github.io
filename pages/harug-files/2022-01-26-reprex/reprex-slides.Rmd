@@ -1,0 +1,125 @@
+---
+title: "5 ReprEx tips for getting code help"
+subtitle: "HARUG! #79"
+author: "Ed Harris"
+date: "2022-01-26"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## What is ReprEx?
+
+ReprEx means **Reproducible Example**
+
+When asking for help, often online, it helps to provide enough information to EXACTLY REPRODUCE any error you might be getting
+
+Also, take care to provide complete information
+
+- **description of what you are trying to do**
+
+- **minimal data example**
+
+- **code you have already tried** using minimal data
+
+## Is this ReprEx?
+
+Q: Hello I'm adding legends to my boxplots but I found that if I clear the global environment this line
+
+ legend(x = 0.5, y = 28, legend = c('Year 17', 'Year 18'),
+              fill = c(3, 5)))
+
+stops working, it adds the legend correctly if I run the other lines and generate the graph beforehand but if I run the lot together I get the error message
+
+Error in strwidth(legend, units = "user", cex = cex, font = text.font) :
+  plot.new has not been called yet
+
+It would seem untidy to me to leave the script for the legend separate. Is there a way to get it to run with the rest of the code for that graph please?
+
+## Answer to a non-Reprex:
+
+A: I would need a bit more code about what you are trying to answer, and your output. 
+
+I do not understand what scenario would make you clear your global environment between making a plot and drawing a legend on your plot?
+
+e.g. something like this reproducible example works fine:
+
+## Answer to a non-Reprex:
+
+```r
+var <- c(1,2,3,4)
+factor <- c('a','a','b','b')
+data <- data.frame(var, factor)
+
+boxplot(var~factor, data=data,
+        col=c('red','blue'))
+
+legend(x=1, y = 3.5, legend = c('a', 'b'),
+       col=c('red','blue'), pch=15)
+```    
+
+## Answer to a non-Reprex:
+
+```{r}
+var <- c(1,2,3,4)
+factor <- c('a','a','b','b')
+data <- data.frame(var, factor)
+boxplot(var~factor, data=data,
+        col=c('red','blue'))
+legend(x=1, y = 3.5, legend = c('a', 'b'),
+       col=c('red','blue'), pch=15)
+
+```
+
+
+## A good ReprEx has 5 features:
+
+- context
+
+- what do you want to do?
+
+- what have you tried (code, not screenshot)?
+
+- minimal data (probably also code)
+
+- error message or wrong outcome
+
+
+## Example: Compare means of just 2 of 3 flower spp
+
+```{r, echo=T}
+data(iris)
+head(iris)
+
+```
+
+
+## Example: Compare means of just 2 of 3 flower spp
+
+```r
+my_iris <- iris[which(iris$Species != 'virginica')]
+
+Error in `[.data.frame`(iris, which(iris$Species != "virginica")) : 
+  undefined columns selected
+
+```
+
+## Go through the steps
+
+- context
+
+- what do you want to do?
+
+- what have you tried (code, not screenshot)?
+
+- minimal data (probably also code)
+
+- error message or wrong outcome
+
+## references
+
+[Hadley Wickham on ReprEx](https://gist.github.com/hadley/270442#file-reproducible-md)
+
+[Stack Overflow speaks](https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example)
