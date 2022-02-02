@@ -31,14 +31,12 @@ Future: 2022-02-11 (meeting #81) Volunteers, suggestions?
 
 Future: 2022-02-02 (meeting #80) Making a website with the {distill} package, R Markdown and Hugo (Joe Roberts)
 
-Future: 2022-01-26 (meeting #79) R for best practice for non-R users, a workflow for supervisors, students, and other interesting people (Ed Harris)
-
 ---
 
 &nbsp;
 
 
-<a href="" target="_blank">
+<a href="https://youtu.be/KrKmZZooAEo" target="_blank">
 <img src="harug-files/2022-01-26-reprex/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
 </a> Video placeholder
 
