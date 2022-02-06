@@ -1,0 +1,29 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "About this site",
+      "description": "Some additional details about the website",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-02-02T16:53:30+00:00"
+    },
+    {
+      "path": "graph_portfolio.html",
+      "title": "Graph Portfolio",
+      "description": "Mad graph skills",
+      "author": [],
+      "contents": "\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-02-02T16:53:30+00:00"
+    },
+    {
+      "path": "index.html",
+      "title": "HARUG Website",
+      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "author": [],
+      "contents": "\r\nTitle\r\nHello, my name is Ed and I’m a data scientist.\r\nPlotting\r\n\r\n\r\nlibrary(ggplot2)\r\nggplot(iris, aes(x = Sepal.Length,\r\n                 y = Sepal.Width)) +\r\n  geom_point() + \r\n  facet_grid(~ Species)\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+      "last_modified": "2022-02-02T16:53:32+00:00"
+    }
+  ],
+  "collections": []
+}

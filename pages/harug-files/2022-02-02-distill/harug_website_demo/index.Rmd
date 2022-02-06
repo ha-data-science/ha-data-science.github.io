@@ -1,0 +1,33 @@
+---
+title: "HARUG Website"
+description: |
+  Welcome to the website. I hope you enjoy it!
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+```
+
+# Title
+Hello, my name is Ed and I'm a data scientist.
+
+## Plotting
+
+
+
+```{r, layout = 'l-body-outset', fig.width = 4, fig.height = 1.5, echo = T}
+library(ggplot2)
+ggplot(iris, aes(x = Sepal.Length,
+                 y = Sepal.Width)) +
+  geom_point() + 
+  facet_grid(~ Species)
+
+```
+
+
+

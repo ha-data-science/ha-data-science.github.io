@@ -1,0 +1,14 @@
+name: "harug_website_demo"
+title: "HARUG Website"
+description: |
+  HARUG Website
+output_dir: "_site"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+    - text: "Graph Portfolio"
+      href: graph_portfolio.html
+output: distill::distill_article
