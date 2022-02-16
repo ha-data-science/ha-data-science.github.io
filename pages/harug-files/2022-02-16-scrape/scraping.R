@@ -28,12 +28,13 @@ dat$StatementURL[1] # no pdf
 
 # peek at https://www.flyedelweiss.com/DE/about-edelweiss/responsibility/Pages/uk-modern-slavery-statement.aspx
 test <- dat$StatementURL[1]
-download.file(url = test, destfile = 'pdfs/test.aspx')
+download.file(url = test, destfile = 'pdfs/test.html')
 
+dat$StatementURL[1:8]
 
 # get a url with a pdf
 ?grep
-test <- dat$StatementURL[grep('.pdf', dat$StatementURL)[1]] # bad url?
+test <- dat$StatementURL[grep('.pdf', dat$StatementURL)[2]] # bad url?
 
 # download a pdf
 download.file(url = test, destfile = 'pdfs/test.pdf')
@@ -59,13 +60,15 @@ download.file(url = test,
 
 ## 02 Experiment 2 D/L several pdfs
 
-n <- 3 # some number
+n <- 100 # some number
 for(i in 1:n){
   test <- d3$StatementURL[grep('.pdf', d3$StatementURL)][i]
+  
   download.file(url = test, 
                 destfile = paste('pdfs/', i, '.pdf', sep = ''),
                 method = 'wininet',
                 mode = 'wb')
+  
   Sys.sleep(1)
 }
 

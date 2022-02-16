@@ -35,11 +35,11 @@ Future: 2022-02-23 (meeting #82) Big Data project pitches (Sophie and Harry)
 &nbsp;
 
 
-<a href="" target="_blank">
+<a href="https://youtu.be/BSGGuBbexXY" target="_blank">
 <img src="harug-files/2022-02-16-scrape/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
 </a> Video placeholder
 
-**2022-02-16 (meeting #81) (Iona's suggestion) automating file downloads for data harvesting from the web(Ed)** :: [script](harug-files/2022-02-16-scrape/scraping.R) :: [example data](harug-files/2022-02-16-scrape/data/StatementSummaries2022.csv)
+**2022-02-16 (meeting #81) (Iona's suggestion) automating file downloads for data harvesting from the web (Ed Harris)** :: [script](harug-files/2022-02-16-scrape/scraping.R) :: [example data](harug-files/2022-02-16-scrape/data/StatementSummaries2022.csv)
 
 
 &nbsp;
