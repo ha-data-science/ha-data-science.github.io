@@ -21,7 +21,7 @@ d3 <- read.csv('data/StatementSummaries2022.csv')
 
 dat <- rbind(d1,d2,d3)
 
-## 01 Exp. 1 D/L a pdf ####
+## 01 Experiment 1 D/L a pdf ####
 
 # get a url
 dat$StatementURL[1] # no pdf
@@ -57,7 +57,28 @@ download.file(url = test,
               method = 'wininet',
               mode = 'wb')
 
+## 02 Experiment 2 D/L several pdfs
+
+n <- 3 # some number
+for(i in 1:n){
+  test <- d3$StatementURL[grep('.pdf', d3$StatementURL)][i]
+  download.file(url = test, 
+                destfile = paste('pdfs/', i, '.pdf', sep = ''),
+                method = 'wininet',
+                mode = 'wb')
+  Sys.sleep(1)
+}
 
 
 ## References ####
 # https://statisticsglobe.com/download-file-in-r-example
+
+
+
+
+
+
+
+
+
+
