@@ -25,13 +25,32 @@ output: html_document
 
 ---
 
-Future: 2022-02-18 (meeting #82) Volunteers, suggestions?
+Future: 2022-03-02 (meeting #83) TBA Volunteers or suggestions
 
-Future: 2022-02-11 (meeting #81) Volunteers, suggestions?
+Future: 2022-02-23 (meeting #82) Big Data project pitches (Sophie and Harry)
 
-Future: 2022-02-02 (meeting #80) Making a website with the {distill} package, R Markdown and Hugo (Joe Roberts)
 
 ---
+
+&nbsp;
+
+
+<a href="" target="_blank">
+<img src="harug-files/2022-02-16-scrape/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
+</a> Video placeholder
+
+**2022-02-16 (meeting #81) (Iona's suggestion) automating file downloads for data harvesting from the web(Ed)** :: [script](harug-files/2022-02-16-scrape/scraping.R) :: [example data](harug-files/2022-02-16-scrape/data/StatementSummaries2022.csv)
+
+
+&nbsp;
+
+
+<a href="https://youtu.be/io1cnc-BWNk" target="_blank">
+<img src="harug-files/2022-02-02-distill/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
+</a> Video placeholder
+
+**2022-02-02 (meeting #80) Making a website with the {distill} package, R Markdown and Hugo (Joe Roberts)** :: [Joe's example code zip](harug-files/2022-02-02-distill/harug_website_demo.zip)
+
 
 &nbsp;
 
@@ -40,7 +59,7 @@ Future: 2022-02-02 (meeting #80) Making a website with the {distill} package, R 
 <img src="harug-files/2022-01-26-reprex/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
 </a> Video placeholder
 
-**2022-01-19 2022-01-26 (meeting #79) R for best practice for non-R users** (Ed Harris) :: [Slides](harug-files/2022-01-26-reprex/reprex-slides.html) :: 
+**2022-01-26 (meeting #79) R for best practice for non-R users** (Ed Harris) :: [Slides](harug-files/2022-01-26-reprex/reprex-slides.html) :: 
 [Slides script](harug-files/2022-01-26-reprex/reprex-slides.Rmd) :: [Example script](harug-files/2022-01-26-reprex/reprex-code.R)
 
 
