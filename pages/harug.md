@@ -25,9 +25,17 @@ output: html_document
 
 ---
 
-Future: 2022-03-02 (meeting #83) TBA Volunteers or suggestions
+Future:
 
-Future: 2022-02-23 (meeting #82) Big Data project pitches (Sophie and Harry)
+2022-03-30 (meeting #87) Volunteer and topic needed
+
+2022-03-23 (meeting #86) Volunteer and topic needed
+
+2022-03-16 (meeting #85) (by request) Small R topics, like for() loops, ifelse(), setting up an R project directory and script (Ed)
+
+2022-03-09 (meeting #84) Volunteer or ideas needed (Possibly George - What is Yolov5 Good For!? [Python computer vision].)
+
+2022-03-02 (meeting #83) Volunteer or ideas needed (Possibly Peter - modelling spatial occurrence with SADIE in R.)
 
 
 ---
@@ -35,9 +43,19 @@ Future: 2022-02-23 (meeting #82) Big Data project pitches (Sophie and Harry)
 &nbsp;
 
 
+<a href="" target="_blank">
+<img src="harug-files/2022-02-23-big-dat/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
+</a>
+
+**2022-02-23 (meeting #82) Big Data project pitches (Sophie and Harry)** 
+
+
+&nbsp;
+
+
 <a href="https://youtu.be/BSGGuBbexXY" target="_blank">
 <img src="harug-files/2022-02-16-scrape/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
-</a> Video placeholder
+</a>
 
 **2022-02-16 (meeting #81) (Iona's suggestion) automating file downloads for data harvesting from the web (Ed Harris)** :: [script](harug-files/2022-02-16-scrape/scraping.R) :: [example data](harug-files/2022-02-16-scrape/data/StatementSummaries2022.csv)
 
@@ -47,7 +65,7 @@ Future: 2022-02-23 (meeting #82) Big Data project pitches (Sophie and Harry)
 
 <a href="https://youtu.be/io1cnc-BWNk" target="_blank">
 <img src="harug-files/2022-02-02-distill/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
-</a> Video placeholder
+</a>
 
 **2022-02-02 (meeting #80) Making a website with the {distill} package, R Markdown and Hugo (Joe Roberts)** :: [Joe's example code zip](harug-files/2022-02-02-distill/harug_website_demo.zip)
 
@@ -57,7 +75,7 @@ Future: 2022-02-23 (meeting #82) Big Data project pitches (Sophie and Harry)
 
 <a href="https://youtu.be/KrKmZZooAEo" target="_blank">
 <img src="harug-files/2022-01-26-reprex/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
-</a> Video placeholder
+</a>
 
 **2022-01-26 (meeting #79) R for best practice for non-R users** (Ed Harris) :: [Slides](harug-files/2022-01-26-reprex/reprex-slides.html) :: 
 [Slides script](harug-files/2022-01-26-reprex/reprex-slides.Rmd) :: [Example script](harug-files/2022-01-26-reprex/reprex-code.R)
