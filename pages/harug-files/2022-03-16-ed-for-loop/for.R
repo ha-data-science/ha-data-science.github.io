@@ -21,9 +21,9 @@ for(bob in 1:25){
 x = 10 # initialize
 
 # Print 1 to 5
-while(x >= 1){
+while(x > 1){
   print(paste('My number is', x))
-  x = x - 1  # condition increment
+  x = x + 1  # condition increment
 }
 
 
@@ -46,7 +46,7 @@ if(x > 10){
 
 
 # example 3
-x <- 9
+x <- 75
 
 ifelse(test = x > 10,
        yes = paste(x, "is greater than 10"),
@@ -75,7 +75,7 @@ plot(y = data1$ADGkg, x = data1$KillAge,
      xlab = 'Kill Age (d)', cex.lab=mycex,
      main = '64.9% variation associated with Sire')
 for (i in 1:length(table(data1$Sire))){
-  abline(coef=lmeADG.c[i,c('(Intercept)', 'KillAge')],
+  abline(coef=lmeADG.c[i, c('(Intercept)', 'KillAge')],
          col = 'gray80')
 }
 abline(coef = apply(X = lmeADG.c[,c('(Intercept)', 'KillAge')],
