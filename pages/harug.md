@@ -31,14 +31,39 @@ Future:
 
 2022-03-23 (meeting #86) Volunteer and topic needed
 
-2022-03-16 (meeting #85) (by request) Small R topics, like for() loops, ifelse(), setting up an R project directory and script (Ed)
-
-2022-03-09 (meeting #84) Volunteer or ideas needed (Possibly George - What is Yolov5 Good For!? [Python computer vision].)
-
-2022-03-02 (meeting #83) Volunteer or ideas needed (Possibly Peter - modelling spatial occurrence with SADIE in R.)
-
 
 ---
+
+&nbsp;
+
+
+<a href="" target="_blank">
+<img src="harug-files/2022-03-16-ed-for-loop/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
+</a>
+
+**2022-03-16 (meeting #85) (by request) Small R topics, like for() loops, ifelse(), setting up an R project directory and script (Ed)** 
+
+[slides](harug-files/2022-03-16-ed-for-loop/2022-03-16-slides.html) :: [code](harug-files/2022-03-16-ed-for-loop/for.R) :: [slides-code](harug-files/2022-03-16-ed-for-loop/2022-03-16-slides.Rmd)
+
+&nbsp;
+
+
+<a href="" target="_blank">
+<img src="harug-files/2022-03-09-george-yolo/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
+</a>
+
+**2022-03-09 (meeting #84) Volunteer or ideas needed (Possibly George - What is Yolov5 Good For!? [Python computer vision].)** 
+
+
+&nbsp;
+
+
+<a href="" target="_blank">
+<img src="harug-files/2022-03-02-peter-sadie/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
+</a>
+
+**2022-03-02 (meeting #83) Volunteer or ideas needed (Possibly Peter - modelling spatial occurrence with SADIE in R.)** 
+
 
 &nbsp;
 
