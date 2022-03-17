@@ -97,6 +97,8 @@ data <- data.frame(names=c('Tom', 'Bert', 'Anne'),
                    country = c('England', 'Scotland', 'Wales'))
 data
 
+data[1,]
+
 Use write.csv() to output each line to a csv file with the name of each file being the value of the 'names' vector(
   
 )
