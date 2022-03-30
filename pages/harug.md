@@ -27,12 +27,37 @@ output: html_document
 
 Future:
 
-2022-03-30 (meeting #87) Volunteer and topic needed
 
-2022-03-23 (meeting #86) Volunteer and topic needed
+2022-04-20 (meeting #90) Making mixed effects models fun again in R with {lmerTest}, {MuMin}, and {visreg} (Ed)
+
+2022-04-13 (meeting #89) Reading and activity from 'Advanced R' Ch 03 (George Wager)
+
+2022-04-06 (meeting #88) Using Keras for classification on soil data (Przemek Dolowy)
 
 
 ---
+
+&nbsp;
+
+
+<a href="" target="_blank">
+<img src="harug-files/2022-03-30-twitter/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
+</a>
+
+**2022-03-30 (meeting #87) Twitter scraper in R (Joe Roberts)** 
+
+[file](harug-files/2022-03-30-twitter/) :: [file](harug-files/2022-03-30-twitter/)
+
+&nbsp;
+
+
+<a href="" target="_blank">
+<img src="harug-files/2022-03-23-AdvR-02/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
+</a>
+
+**2022-03-23 (meeting #86) Reading and activity from ['Advanced R' Ch 02](https://adv-r.hadley.nz/names-values.html) (George Wager)** 
+
+[pptx slides](harug-files/2022-03-23-AdvR-02/HARUG-CH02.pptx) :: [quiz code](harug-files/2022-03-23-AdvR-02/QUIZ_TEMPLATE.R)
 
 &nbsp;
 
@@ -52,7 +77,7 @@ Future:
 <img src="harug-files/2022-03-09-george-yolo/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
 </a>
 
-**2022-03-09 (meeting #84) Volunteer or ideas needed (Possibly George - What is Yolov5 Good For!? [Python computer vision].)** 
+**2022-03-09 (meeting #84) Python computer vision: Yolov5, What is it good For!? (George Wager)** 
 
 
 &nbsp;
@@ -62,7 +87,7 @@ Future:
 <img src="harug-files/2022-03-02-peter-sadie/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
 </a>
 
-**2022-03-02 (meeting #83) Volunteer or ideas needed (Possibly Peter - modelling spatial occurrence with SADIE in R.)** 
+**2022-03-02 (meeting #83) Modelling spatial occurrence with SADIE in R (Peter Ngimbwa)** 
 
 
 &nbsp;
