@@ -79,6 +79,7 @@ Future:
 
 **2022-03-09 (meeting #84) Python computer vision: Yolov5, What is it good For!? (George Wager)** 
 
+[George's Github Repo](https://github.com/georginaanna/Implementing-YOLOv5)
 
 &nbsp;
 
