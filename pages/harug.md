@@ -32,10 +32,21 @@ Future:
 
 2022-04-13 (meeting #89) Reading and activity from 'Advanced R' Ch 03 (George Wager)
 
-2022-04-06 (meeting #88) Using Keras for classification on soil data (Przemek Dolowy)
+
 
 
 ---
+
+&nbsp;
+
+
+<a href="" target="_blank">
+<img src="harug-files/2022-04-06-keras/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
+</a>
+
+**2022-04-06 (meeting #88) Using Keras for classification on soil data (Przemek Dolowy)** 
+
+[file]() :: [file]()
 
 &nbsp;
 
@@ -90,6 +101,7 @@ Future:
 
 **2022-03-02 (meeting #83) Modelling spatial occurrence with SADIE in R (Peter Ngimbwa)** 
 
+[{epiphy} package vignette](https://cran.r-project.org/web/packages/epiphy/vignettes/epiphy.html) :: [Article 20 years of SADIE](https://rethinkingecology.pensoft.net/article/30890/) :: [Article spatial patterns](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/j.2041-210X.2011.00165.x)
 
 &nbsp;
 
