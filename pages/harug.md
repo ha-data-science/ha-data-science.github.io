@@ -51,7 +51,7 @@ Future:
 &nbsp;
 
 
-<a href="" target="_blank">
+<a href="https://youtu.be/q1QwCoCzhog" target="_blank">
 <img src="harug-files/2022-03-30-twitter/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
 </a>
 
@@ -62,7 +62,7 @@ Future:
 &nbsp;
 
 
-<a href="" target="_blank">
+<a href="https://youtu.be/WRqCDGKIbEw" target="_blank">
 <img src="harug-files/2022-03-23-AdvR-02/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
 </a>
 
@@ -73,7 +73,7 @@ Future:
 &nbsp;
 
 
-<a href="" target="_blank">
+<a href="https://youtu.be/djc-U2FzeeQ" target="_blank">
 <img src="harug-files/2022-03-16-ed-for-loop/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
 </a>
 
@@ -84,7 +84,7 @@ Future:
 &nbsp;
 
 
-<a href="" target="_blank">
+<a href="https://youtu.be/keouNHmwmU0" target="_blank">
 <img src="harug-files/2022-03-09-george-yolo/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
 </a>
 
@@ -95,7 +95,7 @@ Future:
 &nbsp;
 
 
-<a href="" target="_blank">
+<a href="https://youtu.be/1vLaVIbuSk4" target="_blank">
 <img src="harug-files/2022-03-02-peter-sadie/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
 </a>
 
@@ -108,7 +108,7 @@ Future:
 
 <a href="" target="_blank">
 <img src="harug-files/2022-02-23-big-dat/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
-</a>
+</a> No video for this week
 
 **2022-02-23 (meeting #82) Big Data project pitches (Sophie and Harry)** 
 
