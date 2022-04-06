@@ -46,7 +46,7 @@ Future:
 
 **2022-04-06 (meeting #88) Using Keras for classification on soil data (Przemek Dolowy)** 
 
-[file]() :: [file]()
+[pptx slides](2022-04-06-keras/przemek-slides.pptx) 
 
 &nbsp;
 
