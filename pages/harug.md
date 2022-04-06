@@ -30,17 +30,22 @@ Future:
 
 2022-04-20 (meeting #90) Making mixed effects models fun again in R with {lmerTest}, {MuMin}, and {visreg} (Ed)
 
-2022-04-13 (meeting #89) Reading and activity from 'Advanced R' Ch 03 (George Wager)
-
-
-
 
 ---
 
 &nbsp;
 
-
 <a href="" target="_blank">
+<img src="harug-files/2022-04-13-AdvR-03/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
+</a>
+
+**2022-04-13 (meeting #89) Reading and activity from 'Advanced R' Ch 03 (George Wager)** 
+
+[file](file) 
+
+&nbsp;
+
+<a href="https://youtu.be/hqFoLW48bf8" target="_blank">
 <img src="harug-files/2022-04-06-keras/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
 </a>
 
