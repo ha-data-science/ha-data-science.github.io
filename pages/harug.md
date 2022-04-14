@@ -27,8 +27,15 @@ output: html_document
 
 Future:
 
+2022-04-20 (meeting #90) Simple spatial maps and visualisation of spatial data in Shiny: example with Harper Adams biodiversity data + eBird (Ed)
 
-2022-04-20 (meeting #90) Making mixed effects models fun again in R with {lmerTest}, {MuMin}, and {visreg} (Ed)
+2022-04-27 (meeting #91) Read and go through Ch 01-02 of Plant, R.E., 2018. Spatial Data Analysis in Ecology and Agriculture Using R
+
+2022-05-04 (meeting #92) Presentation of overview and solutions Ch 03 Plant 2018 (Fynn or German, tentative)
+
+2022-05-11 (meeting #93) Presentation of overview and solutions Ch 04 Plant 2018 (Fynn or German, tentative)
+
+> `...and then, Spring break for a few weeks`
 
 
 ---
