@@ -35,13 +35,14 @@ Future:
 
 &nbsp;
 
-<a href="" target="_blank">
+<a href="https://youtu.be/Mkws8qxS0d8" target="_blank">
 <img src="harug-files/2022-04-13-AdvR-03/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
-</a>
+</a> 
+[[<img src="harug-files/2022-04-13-AdvR-03/img/tribble.png" width="100"/>]](harug-files/2022-04-13-AdvR-03/img/tribble.png)
 
 **2022-04-13 (meeting #89) Reading and activity from 'Advanced R' Ch 03 (George Wager)** 
 
-[file](file) 
+[pptx slides](2022-04-13-AdvR-03/HARUG-CH03.pptx) :: [Chapter 03 reading](https://adv-r.hadley.nz/vectors-chap.html)
 
 &nbsp;
 
@@ -62,7 +63,7 @@ Future:
 
 **2022-03-30 (meeting #87) Twitter scraper in R (Joe Roberts)** 
 
-[file](harug-files/2022-03-30-twitter/) :: [file](harug-files/2022-03-30-twitter/)
+[Joe's weather bot](https://github.com/Dr-Joe-Roberts/weather_bot) 
 
 &nbsp;
 
@@ -73,7 +74,7 @@ Future:
 
 **2022-03-23 (meeting #86) Reading and activity from ['Advanced R' Ch 02](https://adv-r.hadley.nz/names-values.html) (George Wager)** 
 
-[pptx slides](harug-files/2022-03-23-AdvR-02/HARUG-CH02.pptx) :: [quiz code](harug-files/2022-03-23-AdvR-02/QUIZ_TEMPLATE.R)
+[pptx slides](harug-files/2022-03-23-AdvR-02/HARUG-CH02.pptx) :: [quiz code](harug-files/2022-03-23-AdvR-02/QUIZ_TEMPLATE.R) :: [Chapter 02 reading](https://adv-r.hadley.nz/names-values.html)
 
 &nbsp;
 
