@@ -1,6 +1,6 @@
 ---
 title: "HARUG! Harper Adams R Users Group"
-# date: Last edited 2021-07-28
+# date: Last edited 2022-04-26
 output: html_document
 ---
 
@@ -27,18 +27,38 @@ output: html_document
 
 Future:
 
-2022-04-20 (meeting #90) Simple spatial maps and visualisation of spatial data in Shiny: example with Harper Adams biodiversity data + eBird (Ed)
+2022-05-04 (meeting #92) Presentation of overview and solutions Ch 03 Plant 2018 (Fynn or German)
 
-2022-04-27 (meeting #91) Read and go through Ch 01-02 of Plant, R.E., 2018. Spatial Data Analysis in Ecology and Agriculture Using R
-
-2022-05-04 (meeting #92) Presentation of overview and solutions Ch 03 Plant 2018 (Fynn or German, tentative)
-
-2022-05-11 (meeting #93) Presentation of overview and solutions Ch 04 Plant 2018 (Fynn or German, tentative)
+2022-05-11 (meeting #93) Presentation of overview and solutions Ch 04 Plant 2018 (Fynn or German)
 
 > `...and then, Spring break for a few weeks`
 
+On deck for when we resume:
+Visualising non-linear regression in R with {ggplot2} (German (Agustin) Fernandez)
+
 
 ---
+
+&nbsp;
+
+<a href="" target="_blank">
+<img src="harug-files/2022-04-27-spatial-01-02/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
+</a> 
+<img src="https://github.com/ha-data-science/harug-files/2022-04-27-spatial-01-02/img/cover.png?raw=true" width="200">
+
+**2022-04-27 (meeting #91) Read and go through Ch 01-02 of Plant, R.E., 2018. Spatial Data Analysis in Ecology and Agriculture Using R (Ed)** 
+
+[slides HTML](2022-04-27-spatial-01-02/)
+
+&nbsp;
+
+<a href="https://youtu.be/euW_EyzsZzE" target="_blank">
+<img src="harug-files/2022-04-20-leaflet/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
+</a> 
+
+**2022-04-20 (meeting #90) Simple spatial maps and visualisation of spatial data in Shiny: example with Harper Adams biodiversity data + eBird (Ed)** 
+
+[leaflet script](2022-04-20/HAU-biodiversity.R)
 
 &nbsp;
 
