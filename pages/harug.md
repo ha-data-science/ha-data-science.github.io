@@ -48,7 +48,7 @@ Visualising non-linear regression in R with {ggplot2} (German (Agustin) Fernande
 
 **2022-04-27 (meeting #91) Read and go through Ch 01-02 of Plant, R.E., 2018. Spatial Data Analysis in Ecology and Agriculture Using R (Ed)** 
 
-[slides HTML](2022-04-27-spatial-01-02/)
+[slides HTML](2022-04-27-spatial-01-02/2022-04-27-slides.html) :: [slides Rmd](2022-04-27-spatial-01-02/2022-04-27-slides.Rmd)
 
 &nbsp;
 
