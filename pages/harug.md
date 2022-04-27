@@ -44,7 +44,8 @@ Visualising non-linear regression in R with {ggplot2} (German (Agustin) Fernande
 <a href="" target="_blank">
 <img src="harug-files/2022-04-27-spatial-01-02/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
 </a> 
-[[<img src="harug-files/2022-04-27-spatial-01-02/img/cover.png" width="100"/>]](harug-files/2022-04-27-spatial-01-02/img/cover.png)
+[[<img src="harug-files/2022-04-27-spatial-01-02/img/cover.png" width="100"/>]](harug-files/2022-04-27-spatial-01-02/img/cover.png) 
+[video part 1](https://youtu.be/wl_502CvdCI) :: [video part 2](https://youtu.be/ge3OVG45KLQ)
 
 **2022-04-27 (meeting #91) Read and go through Ch 01-02 of Plant, R.E., 2018. Spatial Data Analysis in Ecology and Agriculture Using R (Ed)** 
 
