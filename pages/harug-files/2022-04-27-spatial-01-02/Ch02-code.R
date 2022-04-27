@@ -1,0 +1,585 @@
+## HEADER ####
+## who: Ed H
+## what: Spatial Data Ch02
+## when: HARUG 2022-04-27
+
+## CONTENTS ####
+## Setup
+## Sec 2.2
+## Sec 2.3.1
+## Sec 2.3.2
+## Sec 2.4.1
+## Sec 2.4.3
+## Sec 2.5
+## Exercises
+
+## Setup ####
+library(maptools)
+library(tools)
+library(sf)
+library(maptools)
+library(raster)
+library(gstat)
+
+## Sec 2.2 ####
+# Assign the value of 3 to w
+w <- 3
+w # Display the value of w
+
+class(w) # Display the object class of w
+
+# Find out about the function class()
+?class
+
+# See the source code
+class
+
+# Source code for sd()
+sd
+
+# Assign z a character value
+z <- "a"
+z
+class(z)
+
+z <- a
+
+class(class)
+
+# Example of the concatenate function
+z <- c(1, 7, 6.2, 4.5, -27, 1.5e2, 7251360203, w, 2*w, w^2, -27/w)
+z
+
+z[6]
+z[c(6,8)]
+
+# Remove the 6th element of z
+z[-6]
+z[-(6:11)]
+
+# This causes an error
+v[1] <- 4
+# This works
+v <- numeric()
+v[1] <- 4
+v[2] <- 6.2
+v
+
+# Assign v to z and display the result
+print(z <- v)
+
+print(w <- 1:30)
+
+print(z <- 30:1)
+
+# Learn about the function seq()
+?seq
+
+print(a <- matrix(data = 1:9, nrow = 3))
+a[1,]
+2 * a[1,]
+
+w <- c(1,3,6)
+z <- 1:3
+cbind(w, z)
+
+# library(maptools)
+# library(tools)
+package_dependencies("maptools")
+
+## Sec 2.3.1 ####
+
+# loops and vector slicing
+w <- numeric(30)
+z <- numeric(30)
+for(i in 1:30){
+  w[i] <- i
+  z[i] <- 30 - i + 1
+}
+w
+
+w <- 1:10
+for (i in 1:10){
+  {if(w[i] > 5)
+    w[i] <- 20
+  else
+    w[i] <- 0}
+}
+w           
+
+
+w <- 1:10
+w > 5
+w[w > 5]
+w[w > 5] <- 20
+w[w <= 5] <- 0
+w
+
+
+## Sec 2.3.2 ####
+# 'functional programming'
+
+# Generate a sequence of 20 psuedorandom numbers
+set.seed(123) # Set random seed
+print(w <- rnorm(20), digits = 2)
+
+print(z <- rep(1:4, 5))
+
+print(z <- sort(z))
+
+# Apply the mean function to w indexed by z
+tapply(w, z, mean)
+
+set.seed(123)
+tapply(rnorm(20), sort(rep(1:4, 5)), mean)
+
+
+## Sec 2.4.1 ####
+# Data structures
+
+data.Set1.obs <- read.csv("obspts.csv", header = TRUE)
+str(data.Set1.obs)
+
+data.Set4.1 <- read.csv("set4.196sample.csv", header = TRUE)
+class(data.Set4.1)
+names(data.Set4.1)
+data.Set4.1$EM38F425[20:30]
+data.Set4.1[20:30,25]
+data.Set4.1[25,25]
+data.Set4.1$RowCol[1:5]
+
+class(data.Set4.1$GrainProt)
+class(data.Set4.1$RowCol)
+
+print(w <- c("A", "A", "A", "B", "B", "B"))
+class(w)
+print(z <- as.factor(w))
+class(z)
+
+list.demo <- list(crop = "wheat", 
+                  yield = "7900", 
+                  fert.applied = c("N", "P", "K"), 
+                  fert.rate = c(150, 25, 15))
+list.demo[[1]]
+list.demo$crop
+list.demo[[4]]
+list.demo[[4]][1]
+
+data.ex <- data.frame(Char = data.Set4.1$RowCol[1:3], 
+                      Num = seq(1,5,2))
+data.ex
+
+## Sec 2.4.3 ####
+
+
+data.Set1.obs <- read.csv("obspts.csv", header = TRUE)
+class(data.Set1.obs)
+str(data.Set1.obs)
+
+# Read the data for Data Set 1 and create an sf point object
+#library(sf)
+data.Set1.sf <- st_as_sf(data.Set1.obs, 
+                         coords = c("Easting", "Northing"))
+
+class(data.Set1.sf)
+str(data.Set1.sf)
+
+str(data.Set1.sf$geometry)
+
+st_crs(data.Set1.sf) <- "+proj=utm +zone=10 +ellps=WGS84"
+st_crs(data.Set1.sf)
+
+# If you execute the step below directly you will get a warning message saying 
+# crs already established.
+# Instead, start over and skip the st_crs assignment step above
+st_crs(data.Set1.sf) <- 32610
+st_crs(data.Set1.sf)
+
+############################
+
+#Create a boundary for Field 4.2
+N <- 4267873
+S <- 4267483
+E <- 592860
+W <- 592080
+
+N - S
+E - W
+
+print(coords.mat <- matrix(c(W,E,E,W,W,N,N,S,S,N), ncol = 2))
+# Convert the coordinate matrix to a list object 
+coords.lst <- list(coords.mat)
+# Create the sf object by specifying the coordinates
+coords.pol = st_sfc(st_polygon(coords.lst))
+# Assign the value z = 1 to the cell of the polygon
+Set42bdry = st_sf(z = 1, coords.pol)
+st_crs(Set42bdry) <- 32601
+plot(Set42bdry)
+
+
+st_write(Set42bdry, "new/Set42bdry.shp")
+
+?plot
+
+data.Set1.landcover <- st_read(dsn = "landcover.shp")
+str(data.Set1.landcover)
+plot(data.Set1.landcover)
+
+###########################
+
+# Dealing with sp objects
+# library(maptools)
+
+data.Set1.landcover.sp <- as(data.Set1.landcover, "Spatial")
+str(data.Set1.landcover.sp)
+class(slot(data.Set1.landcover.sp, "data")) 
+slot(data.Set1.landcover.sp, "data")$VegType[1:10]
+data.Set1.landcover.sp@data$VegType[1:10]
+data.Set1.landcover.sp@polygons[[1]]
+
+lapply(data.Set1.landcover.sp@polygons, slot, "ID")
+y <- lapply(data.Set1.landcover.sp@polygons, slot, "labpt")
+data.Set1.landcover.sp.loc <- matrix(0, length(y), 2)
+for (i in 1:length(y)) data.Set1.landcover.sp.loc[i,] <- unlist(y[[i]])
+data.Set1.landcover.sp.loc
+
+data.Set1.sp <- data.Set1.obs
+coordinates(data.Set1.sp) <- c("Easting", "Northing") 
+proj4string(data.Set1.sp) <- CRS("+proj=utm +zone=10 +ellps=WGS84")
+
+###############################
+
+# Raster objects
+# Read the three bands of a tiff image as a raster stack
+# library(raster)
+data.4.2.May <- brick("Set4.20596.tif")
+data.4.2.May
+
+projection(data.4.2.May) <- CRS("+proj=utm +zone=10 +ellps=WGS84")
+data.4.2.May
+
+plot(data.4.2.May)
+# Only the first layger of the brick (IR)
+plot(data.4.2.May[[1]])
+
+# Run this code to create an interpolated EC grid
+# library(gstat)
+# library(maptools)
+data.Set4.2EC <- read.csv("Set4.2EC.csv", header = TRUE)
+data.Set4.2EC$ID <- 1:nrow(data.Set4.2EC)
+# Establish the coordinates of the rectangular boundary
+N <- 4267868
+S <- 4267513
+E <- 592867
+W <- 592082
+cell.size <- 10
+# Create the interpolation grid
+grid.xy <- expand.grid(x = seq(W, E, cell.size),  y = seq(N, S, -cell.size))
+coordinates(grid.xy) <- ~x + y
+gridded(grid.xy) = TRUE
+proj4string(grid.xy) = CRS("+proj=utm +zone=10 +ellps=WGS84")
+grid.ras <- raster(grid.xy)
+# Select every (cell.size)th data value
+data.vgm <- data.Set4.2EC[-which(data.Set4.2EC$ID %% cell.size != 0),]
+coordinates(data.vgm) <- c("Easting", "Northing")
+projection(data.vgm) <- projection(grid.ras)
+EC.vgm <- variogram(ECto30 ~ 1, data.vgm)
+EC.fit <- fit.variogram(EC.vgm, model = vgm(100000, "Sph", 700,10000))
+plot(EC.vgm, EC.fit, col = "black") # Fig.1.2a
+
+EC.krig <- gstat(formula = ECto30 ~ 1, locations = grid.xy, data = data.vgm,
+                 model = EC.fit)
+EC.ras <- interpolate(grid.ras, EC.krig)
+extent(EC.ras)
+extent(data.4.2.May)
+
+# error here and out time to fix
+IR.4.2.May <- resample(data.4.2.May[[1]], EC.ras)
+data.4.2.May.stack <- stack(IR.4.2.May, EC.ras)
+plot(data.4.2.May.stack)
+
+## Sec 2.5 ####
+# Custom functions
+z <- c(10,2,3,21,5,72,18,25,34,33)
+print(ztrim <- sort(z))
+
+trim <- 0.1
+print(tl <- as.integer(trim * length(ztrim)))
+# Trim from the low end
+print(ztrim <- ztrim[-(1:tl)])
+# Trim from the high end
+th <- length(ztrim) - tl
+print(ztrim <- ztrim[-((th + 1):length(ztrim))])
+
+print(zsd <- sd(ztrim))
+
+
+# Function to compute the trimmed standard deviation
+sd.trim <- function(z, trim){
+  # trim must be between 0 and 0.5 or this won't work
+  # Sort the z values
+  ztrim <- sort(z)
+  # Calculate the number to remove
+  tl <- as.integer(trim * length(ztrim))
+  # Remove the lowest values
+  ztrim <- ztrim[-(1:tl)]
+  # Remove the highest values
+  th <- length(ztrim) - tl
+  ztrim <- ztrim[-((th + 1):length(ztrim))]
+  # Compute the standard deviation
+  zsd <- sd(ztrim)
+  return(zsd)
+}
+
+sd.trim(z, 0.1)
+
+
+a <- matrix(c(1,2,3,4), nrow = 2)
+a
+diag(a)
+
+v <- c(1, 2)
+v
+diag(v)
+
+to.the.n <- function(w) w^n
+n <- 3
+to.the.n(2)
+
+better.to.the.n <- function(w, n) w^n
+n <- 3
+better.to.the.n(2,4)
+
+
+## Exercises ####
+# 2.1 
+# stop code from running away
+i <- 1:20
+while(i < 5) i <- 2
+
+
+# 2.2a
+# order of operations
+3 * 4 ^ 2 + 2
+-1:2
+-(1:2)
+
+#2.2b
+# vector actions
+1:3 - 1
+
+#2.2c
+# boolean fun
+w <- 1:10
+w > 5
+w == 5
+w != 5
+
+# 2.3a
+# matrix make
+A <- matrix(c(1,1,1,1,2,2,2,2,3,3,3,3), 
+            nrow = 3, 
+            byrow = TRUE)
+A
+A[2,]
+A[-2,]
+
+#2.3b
+#Use cbind()
+B <- cbind(A[,1],5*A[,1])
+B
+
+#2.3c
+#create df
+C <- data.frame(B)
+names(C) <- c("C1","C2")
+C
+
+#2,3d
+# Lists
+L <- list(L1 = w, L2 = B, L3 = C)
+L$L3$C2
+L[[3]][,2]
+
+#2.4a
+# vectors
+w <- c(6, 2.4, 3)
+w
+z <- c("a", "b", "c")
+z
+
+#2.4b
+# coersion rules
+z <- c(w, z)
+z
+class(z)
+
+#2.4c
+# force class
+w <- as.numeric(z)
+w
+
+# 2.5
+# These do not give the same results
+w <- 1:10
+for (i in 1:10){
+  {if (w[i] > 5)
+    w[i] <- 3
+  else
+    w[i] <- 0}
+}
+w           
+w <- 1:10
+w > 5
+w[w > 5]
+w[w > 5] <- 3
+w[w <= 5] <- 0
+w
+# This does give the same result
+w <- 1:10
+i <- w[w > 5]
+j <- w[w <= 5]
+w[i] <- 3
+w[j] <- 0
+w
+
+#2.6
+#a)
+z <- numeric(20)
+i <- 0:19
+
+#b
+z[i %% 5 == 0] <- 1
+
+#c)
+z <- cumsum(z)
+z
+
+#2.7a
+print(pi, digits = 20)
+
+#2.7b
+?sin
+?seq
+w <- seq(0, 6, 0.25)
+z1 <- sin(0.5 * pi * w)
+
+#2.7c
+sin.npi <- function(w) sin(n * pi * w)
+n <- 0.5
+z2 <- sin.npi(w)
+z <- cbind(z1,z2)
+z
+
+#2.7d
+all.equal(z1, z2)
+z1 <- exp(-z2)
+
+#2.7e
+exp.m.sin <- function(w) exp(-sin.npi(w))
+z2 <- exp.m.sin(w)
+z <- cbind(z1,z2)
+z
+
+#2.8a
+?UKgas
+data(UKgas)
+
+#2.8b
+UKg <- matrix(UKgas, ncol = 4, byrow = TRUE)
+
+#2.8c
+UKgm <- apply(UKg, 1, mean)
+mean(UKg[1,])
+
+#2.8d
+UKg.df <- data.frame(UKg)
+names(UKg.df) <- c( "Winter", "Spring", "Summer", "Fall")
+UKg.df$Mean <- UKgm
+UKg.df$Year <- 1960:1986
+
+#2.8e
+apply(UKg, 2, mean)
+
+#2.9a
+#bad plot
+plot(UKg.df$Year, UKg.df$Mean)
+
+# 2.9b
+#good plot
+plot(UKg.df$Year, UKg.df$Mean, type = "l",
+     main = "Mean UK Gas Consumption", xlab = "Year", ylab = "Consumption")
+
+#2.9c
+points(UKg.df$Year,UKg.df$Winter)
+max(max(UKg.df$Spring), max(UKg.df$Summer), max(UKg.df$Fall),
+    max(UKg.df$Winter))
+
+#2.9d
+# seasons
+plot(UKg.df$Year, UKg.df$Mean, type = "l", ylim = c(0,1200),
+     main = "Mean UK Gas Consumption", xlab = "Year", ylab = "Consumption")
+points(UKg.df$Year, UKg.df$Winter, pch = 1)
+points(UKg.df$Year, UKg.df$Spring, pch = 2)
+points(UKg.df$Year, UKg.df$Summer, pch = 3)
+points(UKg.df$Year, UKg.df$Fall, pch = 4)
+
+
+#2.9e
+# legend the hard way
+points(1965,1000, pch = 1)
+text(1965, 1000, "Winter", pos = 4)
+points(1965,925, pch = 2)
+text(1965, 925, "Spring", pos = 4)
+points(1965,850, pch = 3)
+text(1965, 850, "Summer", pos = 4)
+points(1965,775, pch = 4)
+text(1965, 775, "Fall", pos = 4)
+
+# 2.9f
+#easy legend
+plot(UKg.df$Year, UKg.df$Mean, type = "l", ylim = c(0,1200),
+     main = "Mean UK Gas Consumption", xlab = "Year", ylab = "Consumption")
+points(UKg.df$Year, UKg.df$Winter, pch = 1)
+points(UKg.df$Year, UKg.df$Spring, pch = 2)
+points(UKg.df$Year, UKg.df$Summer, pch = 3)
+points(UKg.df$Year, UKg.df$Fall, pch = 4)
+
+legend(1965, 1000, c("Winter", "Spring", 
+                     "Summer", "Fall"), 
+       pt.cex = 1, 
+       pch = 1:4, 
+       y.intersp = 1,
+       title = "Season")
+
+#2.10
+# library(raster)
+getAnywhere("plot")
+raster::plot
+graphics::plot
+#library(sf)
+?plot
+?plot.sf
+?plot.raster
+#2.11
+
+#Set 4-1, 1996 and 1997
+N <- 4271132
+W <- 592025
+NE <- 592470
+SE <- 592404
+S <- 4270352
+coords.mat <- matrix(c(W,NE,SE,W,W,N,N,S,S,N),
+                     ncol = 2)
+# library(sf)
+coords.lst <- list(coords.mat)
+# Create the sf object by specifying the coordinates
+coords.pol = st_sfc(st_polygon(coords.lst))
+# Assign the value z = 1 to the cell of the polygon
+Set41bdry = st_sf(z = 1, coords.pol)
+st_crs(Set41bdry) <- 32601
+plot(Set41bdry)
+# Don't forget to rund setwd() first!
+st_write(Set41bdry, "new/Set419697bdry.shp")
+
+
