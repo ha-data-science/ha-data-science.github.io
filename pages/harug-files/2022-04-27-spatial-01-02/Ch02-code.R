@@ -47,7 +47,8 @@ z <- a
 class(class)
 
 # Example of the concatenate function
-z <- c(1, 7, 6.2, 4.5, -27, 1.5e2, 7251360203, w, 2*w, w^2, -27/w)
+z <- c(1, 7, 6.2, 4.5, -27, 1.5e2, 
+       7251360203, w, 2*w, w^2, -27/w)
 z
 
 z[6]
@@ -75,7 +76,9 @@ print(z <- 30:1)
 # Learn about the function seq()
 ?seq
 
-print(a <- matrix(data = 1:9, nrow = 3))
+print(a <- matrix(data = 1:9, 
+                  nrow = 3))
+
 a[1,]
 2 * a[1,]
 
@@ -97,6 +100,7 @@ for(i in 1:30){
   z[i] <- 30 - i + 1
 }
 w
+z
 
 w <- 1:10
 for (i in 1:10){
@@ -569,8 +573,8 @@ W <- 592025
 NE <- 592470
 SE <- 592404
 S <- 4270352
-coords.mat <- matrix(c(W,NE,SE,W,W,N,N,S,S,N),
-                     ncol = 2)
+print(coords.mat <- matrix(c(W,NE,SE,W,W,N,N,S,S,N),
+                     ncol = 2))
 # library(sf)
 coords.lst <- list(coords.mat)
 # Create the sf object by specifying the coordinates

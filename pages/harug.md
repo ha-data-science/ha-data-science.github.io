@@ -48,7 +48,7 @@ Visualising non-linear regression in R with {ggplot2} (German (Agustin) Fernande
 
 **2022-04-27 (meeting #91) Read and go through Ch 01-02 of Plant, R.E., 2018. Spatial Data Analysis in Ecology and Agriculture Using R (Ed)** 
 
-[slides HTML](2022-04-27-spatial-01-02/2022-04-27-slides.html) :: [slides Rmd](2022-04-27-spatial-01-02/2022-04-27-slides.Rmd) :: [chapter and exercises code](2022-04-27-spatial-01-02/Ch02-code.R) :: [data .zip](2022-04-27-spatial-01-02/data.zip)
+[slides HTML](harug-files/2022-04-27-spatial-01-02/2022-04-27-slides.html) :: [slides Rmd](harug-files/2022-04-27-spatial-01-02/2022-04-27-slides.Rmd) :: [chapter and exercises code](harug-files/2022-04-27-spatial-01-02/Ch02-code.R) :: [data .zip](harug-files/2022-04-27-spatial-01-02/data.zip)
 
 &nbsp;
 
@@ -58,7 +58,7 @@ Visualising non-linear regression in R with {ggplot2} (German (Agustin) Fernande
 
 **2022-04-20 (meeting #90) Simple spatial maps and visualisation of spatial data in Shiny: example with Harper Adams biodiversity data + eBird (Ed)** 
 
-[leaflet script](2022-04-20/HAU-biodiversity.R)
+[leaflet script](harug-files/2022-04-20/HAU-biodiversity.R)
 
 &nbsp;
 
@@ -69,7 +69,7 @@ Visualising non-linear regression in R with {ggplot2} (German (Agustin) Fernande
 
 **2022-04-13 (meeting #89) Reading and activity from 'Advanced R' Ch 03 (George Wager)** 
 
-[pptx slides](2022-04-13-AdvR-03/HARUG-CH03.pptx) :: [Chapter 03 reading](https://adv-r.hadley.nz/vectors-chap.html)
+[pptx slides](harug-files/2022-04-13-AdvR-03/HARUG-CH03.pptx) :: [Chapter 03 reading](https://adv-r.hadley.nz/vectors-chap.html)
 
 &nbsp;
 
@@ -79,7 +79,7 @@ Visualising non-linear regression in R with {ggplot2} (German (Agustin) Fernande
 
 **2022-04-06 (meeting #88) Using Keras for classification on soil data (Przemek Dolowy)** 
 
-[pptx slides](2022-04-06-keras/przemek-slides.pptx) 
+[pptx slides](harug-files/2022-04-06-keras/przemek-slides.pptx) 
 
 &nbsp;
 
