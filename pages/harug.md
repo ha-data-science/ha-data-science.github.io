@@ -27,9 +27,8 @@ output: html_document
 
 Future:
 
-2022-05-04 (meeting #92) Presentation of overview and solutions Ch 03 Plant 2018 (Fynn or German)
 
-2022-05-11 (meeting #93) Presentation of overview and solutions Ch 04 Plant 2018 (Fynn or German)
+2022-05-11 (meeting #93) Presentation of overview and solutions Ch 04 Plant 2018 (Fynn)
 
 > `...and then, Spring break for a few weeks`
 
@@ -45,9 +44,25 @@ Visualising non-linear regression in R with {ggplot2} (German (Agustin) Fernande
 <img src="harug-files/2022-04-27-spatial-01-02/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
 </a> 
 [[<img src="harug-files/2022-04-27-spatial-01-02/img/cover.png" width="100"/>]](harug-files/2022-04-27-spatial-01-02/img/cover.png) 
+
+**2022-05-04 (meeting #92) Presentation of overview and solutions Ch 03 Plant 2018 (German)** 
+
+[Reading ch03](https://github.com/weharris/C7046-activity/raw/main/material/03-ch03.pdf)
+
+[slides]() :: [code]()
+
+&nbsp;
+
+<a href="" target="_blank">
+<img src="harug-files/2022-04-27-spatial-01-02/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
+</a> 
+[[<img src="harug-files/2022-04-27-spatial-01-02/img/cover.png" width="100"/>]](harug-files/2022-04-27-spatial-01-02/img/cover.png) 
 [video part 1](https://youtu.be/wl_502CvdCI) :: [video part 2](https://youtu.be/ge3OVG45KLQ)
 
 **2022-04-27 (meeting #91) Read and go through Ch 01-02 of Plant, R.E., 2018. Spatial Data Analysis in Ecology and Agriculture Using R (Ed)** 
+
+[Reading ch01](https://github.com/weharris/C7046-activity/raw/main/material/01-ch01.pdf) ::
+[Reading ch02](https://github.com/weharris/C7046-activity/raw/main/material/02-ch02.pdf)
 
 [slides HTML](harug-files/2022-04-27-spatial-01-02/2022-04-27-slides.html) :: [slides Rmd](harug-files/2022-04-27-spatial-01-02/2022-04-27-slides.Rmd) :: [chapter and exercises code](harug-files/2022-04-27-spatial-01-02/Ch02-code.R) :: [data .zip](harug-files/2022-04-27-spatial-01-02/data.zip)
 
