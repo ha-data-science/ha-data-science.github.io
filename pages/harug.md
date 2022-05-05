@@ -28,11 +28,10 @@ output: html_document
 Future:
 
 
-2022-05-11 (meeting #93) Presentation of overview and solutions Ch 04 Plant 2018 (Fynn)
-
-> `...and then, Spring break for a few weeks`
+> `Spring break for a few weeks...`
 
 On deck for when we resume:
+
 Visualising non-linear regression in R with {ggplot2} (German (Agustin) Fernandez)
 
 
@@ -41,7 +40,20 @@ Visualising non-linear regression in R with {ggplot2} (German (Agustin) Fernande
 &nbsp;
 
 <a href="" target="_blank">
-<img src="harug-files/2022-04-27-spatial-01-02/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
+<img src="harug-files/2022-05-11-spatial-04/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
+</a> 
+[[<img src="harug-files/2022-04-27-spatial-01-02/img/cover.png" width="100"/>]](harug-files/2022-04-27-spatial-01-02/img/cover.png) 
+
+**2022-05-11 (meeting #93) Presentation of overview and solutions Ch 04 Plant 2018 (Fynn)** 
+
+[Reading ch04](https://github.com/weharris/C7046-activity/raw/main/material/04-ch04.pdf)
+
+[slides]() :: [script]() :: [data]()
+
+&nbsp;
+
+<a href="https://youtu.be/YD_KCqGqo1g" target="_blank">
+<img src="harug-files/2022-05-04-spatial-03/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
 </a> 
 [[<img src="harug-files/2022-04-27-spatial-01-02/img/cover.png" width="100"/>]](harug-files/2022-04-27-spatial-01-02/img/cover.png) 
 
@@ -49,7 +61,7 @@ Visualising non-linear regression in R with {ggplot2} (German (Agustin) Fernande
 
 [Reading ch03](https://github.com/weharris/C7046-activity/raw/main/material/03-ch03.pdf)
 
-[slides]() :: [code]()
+[slides](harug-files/2022-05-04-spatial-03/Statistical Properties of Spatially Autocorrelated Data Ch 3.pptx) :: [Ed's live code from German's presentation](harug-files/2022-05-04-spatial-03/script.R) :: [excel data from chat](harug-files/2022-05-04-spatial-03/Data 2022 V 04.xlsx)
 
 &nbsp;
 
