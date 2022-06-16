@@ -1,6 +1,6 @@
 ---
 title: "HARUG! Harper Adams R Users Group"
-# date: Last edited 2022-04-26
+# date: Last edited 2022-06-16
 output: html_document
 ---
 
@@ -28,27 +28,45 @@ output: html_document
 Future:
 
 
-> `Spring break for a few weeks...`
+2022-06-29 (meeting #95) Visualising non-linear regression in R with {ggplot2}  (German)
 
-On deck for when we resume:
+2022-07-06 (meeting #96) (IN PERSON?) Live problem session on (basic) stats and R skills (Ed)
 
-Visualising non-linear regression in R with {ggplot2} (German (Agustin) Fernandez)
+2022-07-14 (meeting #97) Volunteers or suggestions needed
+
+2022-07-21 (meeting #98) Volunteers or suggestions needed
+
+2022-07-28 (meeting #99) Something computer vision?
+
+2022-08-03 (meeting #100) (IN PERSON?) eBird/Moths biodiversity dashboard revisited (Ed)
+
 
 
 ---
 
 &nbsp;
 
-<a href="" target="_blank">
-<img src="harug-files/2022-05-11-spatial-04/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
+<a href="" target="_blank"> 
+<img src="harug-files/2022-06-22-Przemek-lmer/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
 </a> 
+
+
+**2022-06-22 (meeting #94) Loops and mixed effects in R using lmer() (Przemek)** 
+
+[loops ppt slides](harug-files/2022-06-22-Przemek-lmer/Loops.pptx) :: [loops script](harug-files/2022-06-22-Przemek-lmer/HARUG Loops.R) :: [lmer script](harug-files/2022-06-22-Przemek-lmer/HARUG Exporting lmer models to Word.R) :: [pendata csv](harug-files/2022-06-22-Przemek-lmer/pendata.csv) :: [remap xlsx](harug-files/2022-06-22-Przemek-lmer/remap_all.xlsx)
+
+&nbsp;
+
+<a href="" target="_blank"> 
+<img src="harug-files/2022-05-11-spatial-04/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
+</a> no video this week
 [[<img src="harug-files/2022-04-27-spatial-01-02/img/cover.png" width="100"/>]](harug-files/2022-04-27-spatial-01-02/img/cover.png) 
 
 **2022-05-11 (meeting #93) Presentation of overview and solutions Ch 04 Plant 2018 (Fynn)** 
 
 [Reading ch04](https://github.com/weharris/C7046-activity/raw/main/material/04-ch04.pdf)
 
-[slides]() :: [script]() :: [data]()
+
 
 &nbsp;
 
