@@ -1,7 +1,7 @@
 #
 # HARUG script 
 # 15 June 2022
-# Execution speed in loops
+# Execution speed in oops
 
 library(microbenchmark)
 

@@ -27,11 +27,6 @@ output: html_document
 
 Future:
 
-
-2022-06-29 (meeting #95) Visualising non-linear regression in R with {ggplot2}  (German)
-
-2022-07-06 (meeting #96) (IN PERSON?) Live problem session on (basic) stats and R skills (Ed)
-
 2022-07-14 (meeting #97) Volunteers or suggestions needed
 
 2022-07-21 (meeting #98) Volunteers or suggestions needed
@@ -41,12 +36,33 @@ Future:
 2022-08-03 (meeting #100) (IN PERSON?) eBird/Moths biodiversity dashboard revisited (Ed)
 
 
-
 ---
 
 &nbsp;
 
 <a href="" target="_blank"> 
+<img src="harug-files/2022-07-06-ed-quiz/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
+</a> 
+
+
+**2022-07-06 (meeting #96) (IN PERSON?) Live problem session on (basic) stats and R skills (Ed)** 
+
+[pdf quiz](harug-files/2022-07-06-ed-quiz/bootcamp-test-2022.pdf) :: [script](harug-files/2022-07-06-ed-quiz/HARUG! Growing curves.R) :: [R script](harug-files/2022-07-06-ed-quiz/ED-HARRIS.R) :: [Rmd script](harug-files/2022-07-06-ed-quiz/question-10.Rmd) 
+
+&nbsp;
+
+<a href="https://youtu.be/8bnknDepB18" target="_blank"> 
+<img src="harug-files/2022-06-29-German-non-lin-reg/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
+</a> 
+
+
+**2022-06-29 (meeting #95) Visualising non-linear regression in R with {ggplot2}  (German)** 
+
+[ppt slides](harug-files/2022-06-29-German-non-lin-reg/Non lineal regressions.pptx) :: [script](harug-files/2022-06-29-German-non-lin-reg/HARUG! Growing curves.R) :: [Excel data](harug-files/2022-06-29-German-non-lin-reg/Data.xlsx) :: [Thesis pdf](harug-files/2022-06-29-German-non-lin-reg/Fernandez 2018 Effect of mineral and organic N sources on growth nutrient accumulation and yield of silage maize.pdf) :: [John Fox pdf on non-linear reg.](harug-files/2022-06-29-German-non-lin-reg/Appendix-Nonlinear-Regression.pdf)
+
+&nbsp;
+
+<a href="https://youtu.be/TKkofO0y240" target="_blank"> 
 <img src="harug-files/2022-06-22-Przemek-lmer/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
 </a> 
 

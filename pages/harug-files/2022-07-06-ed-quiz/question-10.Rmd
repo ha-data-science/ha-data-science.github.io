@@ -1,0 +1,43 @@
+---
+title: 'bootcamp assesment # 10'
+author: "Ed Harris"
+date: "2022-06-15"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br>
+ 
+## Question 10
+
+Create a github repository called `bootcamp`, create an html R Markdown document with your complete answer to question #9 in it, showing both code and graph output, and push your R markdown file, your html file and related files to your new repository.  Your answer to this question should simply be a commented html link to your new github repository.  
+
+<br>
+ 
+## Data and ANOVA 
+```{r InsectSprays}
+data(InsectSprays)
+anova(lm(InsectSprays$count ~ InsectSprays$spray))
+```
+
+
+There is a strong overall difference in mean insect count between different spray treatments (ANOVA: F 5,66 = 34.7, P < 0.0001).
+
+<br>
+ 
+## Boxplot
+
+
+
+```{r pressure, echo=T}
+boxplot(InsectSprays$count ~ InsectSprays$spray,
+        xlab = 'Spray treatment',
+        ylab = 'Insect count',
+        col = colors()[1:6],
+        cex.lab=1.5,
+        cex.axis = 1.2)
+```
+
