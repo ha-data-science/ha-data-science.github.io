@@ -47,7 +47,7 @@ Future:
 
 **2022-07-06 (meeting #96) (IN PERSON?) Live problem session on (basic) stats and R skills (Ed)** 
 
-[pdf quiz](harug-files/2022-07-06-ed-quiz/bootcamp-test-2022.pdf) :: [script](harug-files/2022-07-06-ed-quiz/HARUG! Growing curves.R) :: [R script](harug-files/2022-07-06-ed-quiz/ED-HARRIS.R) :: [Rmd script](harug-files/2022-07-06-ed-quiz/question-10.Rmd) 
+[pdf quiz](harug-files/2022-07-06-ed-quiz/bootcamp-test-2022.pdf) :: [R script](harug-files/2022-07-06-ed-quiz/ED-HARRIS.R) :: [Rmd script](harug-files/2022-07-06-ed-quiz/question-10.Rmd) 
 
 &nbsp;
 
