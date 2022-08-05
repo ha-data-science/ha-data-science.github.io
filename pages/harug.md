@@ -27,25 +27,37 @@ output: html_document
 
 Future:
 
-2022-07-14 (meeting #97) Volunteers or suggestions needed
+<summer break, resume September>
+ 
+2022-09-07 (meeting #98) eBird/moth/hedge biodiversity dashboard revisited (Ed)
+ 
+2022-09-14 (meeting #99) computer vision project / Python (Matt)
+ 
+2022-09-21 (meeting #100) (in person?) something fun to celebrate our 10^2 meeting (Ed)
 
-2022-07-21 (meeting #98) Volunteers or suggestions needed
-
-2022-07-28 (meeting #99) Something computer vision?
-
-2022-08-03 (meeting #100) (IN PERSON?) eBird/Moths biodiversity dashboard revisited (Ed)
-
+2022-09-28 (meeting #101) volunteers please
 
 ---
 
 &nbsp;
 
-<a href="" target="_blank"> 
+<a href="https://youtu.be/sGGmys_pf5Y" target="_blank"> 
+<img src="harug-files/2022-07-20-DSSAT/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
+</a> 
+
+
+**2022-07-20 (meeting #97) Crop modeling with {DSSAT} in R (Ed)** 
+
+[DSSAT R Script](harug-files/2022-07-20-DSSAT/DSSAT.R) :: [brief pptx](harug-files/2022-07-20-DSSAT/slides.pptx) :: [Alderman pdf](harug-files/2022-07-20-DSSAT/Alderman - 2020 - R DSSAT.pdf) :: [Jones pdf](harug-files/2022-07-20-DSSAT/Jones et al. - 2003 DSSAT.pdf)
+
+&nbsp;
+
+<a href="https://youtu.be/7d1i7HE4Wms" target="_blank"> 
 <img src="harug-files/2022-07-06-ed-quiz/img/thumbnail.png" width="100" alt="Meeting thumbnail"/>
 </a> 
 
 
-**2022-07-06 (meeting #96) (IN PERSON?) Live problem session on (basic) stats and R skills (Ed)** 
+**2022-07-06 (meeting #96) Live problem session on (basic) stats and R skills (Ed)** 
 
 [pdf quiz](harug-files/2022-07-06-ed-quiz/bootcamp-test-2022.pdf) :: [R script](harug-files/2022-07-06-ed-quiz/ED-HARRIS.R) :: [Rmd script](harug-files/2022-07-06-ed-quiz/question-10.Rmd) 
 

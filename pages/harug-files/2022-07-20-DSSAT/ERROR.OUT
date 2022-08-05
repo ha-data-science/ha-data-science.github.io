@@ -1,0 +1,14 @@
+*RUN-TIME ERRORS OUTPUT FILE
+
+
+*DSSAT Cropping System Model Ver. 4.8.0.027 -release    JUL 20, 2022; 15:34:57
+
+*RUN   1
+
+C:\DSSAT48\W, Trt    0
+ 
+ File not found.  Please check file name or create file.                        
+  
+File: C:\DSSAT48\W   Line:     0   Error key: IPEXP 
+
+Additional information may be available in WARNING.OUT file.
